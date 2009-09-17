@@ -1,0 +1,53 @@
+#summary What your .htaccess file should be
+#labels Featured,Phase-Deploy
+
+= Make a .htaccess file =
+
+If .htaccess file creation/updating failed because of file permission, you'll have to manually make one. It's simple.
+
+
+= Case: YOURLS installed on root =
+
+If YOURLS root URL is http://yoursite/
+
+{{{
+# BEGIN YOURLS
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([0-9A-Za-z]+)/?$ /yourls-go.php?id=$1 [L]
+RewriteRule ^([0-9A-Za-z]+)\+/?$ /yourls-infos.php?id=$1 [L]
+</IfModule>
+# END YOURLS
+}}}
+
+= Case: YOURLS installed in subdirectory =
+
+If YOURLS root URL is http://yoursite/somedir/
+
+{{{
+# BEGIN YOURLS
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /somedir/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([0-9A-Za-z]+)/?$ /somedir/yourls-go.php?id=$1 [L]
+RewriteRule ^([0-9A-Za-z]+)\+/?$ /somedir/yourls-infos.php?id=$1 [L]
+</IfModule>
+# END YOURLS
+}}}
+
+= Bonus: Force non-WWW =
+
+Add this at the beginning of the .htaccess file
+
+{{{
+# BEGIN WithoutWWW
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.yourls\.org$ [NC]
+RewriteRule ^(.*)$ http://yourls.org/$1 [R=301,L]
+# END WithoutWWW
+}}}
