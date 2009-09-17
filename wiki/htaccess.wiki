@@ -1,4 +1,4 @@
-#summary What your .htaccess file should be
+#summary What your .htaccess file should look like
 #labels Featured,Phase-Deploy
 
 = Make a .htaccess file =
