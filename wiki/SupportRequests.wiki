@@ -1,4 +1,4 @@
-#summary How to send support requests. Not with Twitter.
+#summary Not with Twitter.
 #labels Featured,Phase-Support
 
 Twitter is fun but Twitter is *NOT* a convenient way for troubleshooting or support requests. Please file an issue here.
