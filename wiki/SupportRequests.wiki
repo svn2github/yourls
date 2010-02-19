@@ -1,4 +1,4 @@
 #summary Not with Twitter.
 #labels Featured,Phase-Support
 
-Twitter is fun but Twitter is *NOT* a convenient way for troubleshooting or support requests. Please file an issue here.
+Twitter is fun but Twitter is *NOT* a convenient way for troubleshooting or support requests. Please [http://code.google.com/p/yourls/issues/list file an issue] instead. And *search* before filing one.
