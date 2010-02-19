@@ -3,33 +3,33 @@
 
 = 1.4 =
 
-* Stats
+  * Stats
 
 
 = 1.4.1 =
 
-* Various cosmetic fixes
-* Passwordless authentification
+  * Various cosmetic fixes
+  * Passwordless authentification
 
 
 = 1.5 =
 
-* Major DB schema rework (Issue 218 and will allow users, tags and notes)
-* Tags (and notes) for URLs (Issue 13)
-* Save page titles (Issue 139)
-* Toolbar (Issue 228)
-* Maintenance mode (Issue 221)
+  * Major DB schema rework (Issue 218 and will allow users, tags and notes)
+  * Tags (and notes) for URLs (Issue 13)
+  * Save page titles (Issue 139)
+  * Toolbar (Issue 228)
+  * Maintenance mode (Issue 221)
 
 
 = Future Features =
 
-* User management (multi user, user roles, no more plain text passwords in config file)
-* Google Analytics support (Issue 65)
+  * User management (multi user, user roles, no more plain text passwords in config file)
+  * Google Analytics support (Issue 65)
 
 
 = Far Future Features =
 
 Things that may be of interest for some but don't interest me that much :)
 
-* Interface localization (Issue 52)
-* Google Safebrowsing API (Issue 74)
+  * Interface localization (Issue 52)
+  * Google Safebrowsing API (Issue 74)
