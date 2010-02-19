@@ -1,4 +1,4 @@
-#summary More or less planned features
+#summary More or less planned features. No, there's no ETA.
 #labels Featured
 
 = 1.4 =
