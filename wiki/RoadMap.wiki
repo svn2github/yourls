@@ -19,6 +19,7 @@
   * Save page titles (Issue 139)
   * Toolbar (Issue 228)
   * Maintenance mode (Issue 221)
+  * Possibly a plugin architecture and API
 
 
 = Future Features =
