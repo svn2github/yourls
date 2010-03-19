@@ -1,0 +1,11 @@
+#summary Proposed DB schema for YOURLS 1.5
+#labels Phase-Design
+
+= Proposed DB schema for YOURLS 1.5 =
+
+http://yourls.googlecode.com/files/yourls_db.jpg
+
+Legend:
+  * PK  primary key
+  *  U  unique
+  *  K  index
