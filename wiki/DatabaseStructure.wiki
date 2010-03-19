@@ -1,6 +1,10 @@
 #summary Proposed DB schema for YOURLS 1.5
 #labels Phase-Design
 
+= DB in YOURLS 1.4 and prior =
+
+It's weak, performance and disk space wise, and does not allow to easily add new features. Need to improve.
+
 = Proposed DB schema for YOURLS 1.5 =
 
 http://yourls.googlecode.com/files/yourls_db.jpg
@@ -9,3 +13,7 @@ Legend:
   * PK  primary key
   *  U  unique
   *  K  index
+
+= Feedback? =
+
+Please comment below :)
