@@ -13,14 +13,14 @@
 
 
 = 1.5 =
+  * Plugin architecture and API
+  * Save page titles (Issue 139)
+  * Maintenance mode (Issue 221)
+
+= 1.6 =
 
   * Major DB schema rework (Issue 218 and will allow users, tags and notes)
   * Tags (and notes) for URLs (Issue 13)
-  * Save page titles (Issue 139)
-  * Toolbar (Issue 228)
-  * Maintenance mode (Issue 221)
-  * Possibly a plugin architecture and API
-
 
 = Future Features =
 
