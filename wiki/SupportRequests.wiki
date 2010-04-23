@@ -4,3 +4,5 @@
 Twitter is fun but Twitter is *NOT* a convenient way for troubleshooting or support requests. Please [http://code.google.com/p/yourls/issues/list file an issue] instead. And *search* before filing one.
 
 (this page is not monitored. Don't comment here.)
+
+http://planetozh.com/images/simplecounter/count.php?this_is_a=.gif
