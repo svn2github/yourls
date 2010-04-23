@@ -9,7 +9,7 @@ Plugins are additional PHP scripts that extend the functionalities or features o
 
 Using the plugin architecture, you can add new features to YOURLS without having to modify core files. This way, your changes won't be lost when you upgrade your YOURLS installation.
 </td><td width="220px">
-<wiki:toc max_depth="2" />
+<wiki:toc max_depth="3" />
 </td></tr></table>
 
 = Structure of a Plugin File =
