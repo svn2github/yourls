@@ -202,3 +202,5 @@ function my_silly_function( $original_keyword ) {
 Now put this `plugin.php` into `user/plugins/my_first_plugin/` and go to the admin page of your YOURLS setup: a new Plugin menu appears and points to the plugin administration page.
 
 Congratulation, you've just extended the functionalities of YOURLS!
+
+http://planetozh.com/images/simplecounter/count.php?this_is_a=.gif
