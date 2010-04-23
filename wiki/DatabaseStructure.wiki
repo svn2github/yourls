@@ -1,11 +1,13 @@
-#summary Proposed DB schema for YOURLS 1.5
+#summary Proposed DB schema for YOURLS 1.6
 #labels Phase-Design
 
-= DB in YOURLS 1.4 and prior =
+= DB in YOURLS 1.5 and prior =
 
 It's weak, performance and disk space wise, and does not allow to easily add new features. Need to improve.
 
-= Proposed DB schema for YOURLS 1.5 =
+= Proposed DB schema for YOURLS 1.6 =
+
+(See RoadMap)
 
 http://yourls.googlecode.com/files/yourls_db.jpg
 
