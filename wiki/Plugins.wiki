@@ -5,7 +5,7 @@
 <table><tr><td>
 = Plugins =
 
-Plugins are additional PHP scripts that extend the functionalities or features of YOURLS. The core of YOURLS is designed to be as light as possible and avoid bloat (implementing functions not everybody needs) and to allow for easy customization.
+YOURLS 1.5 features a plugin architecture and API. Plugins are additional PHP scripts that extend the functionalities or features of YOURLS. The core of YOURLS is designed to be as light as possible and avoid bloat (implementing functions not everybody needs) and to allow for easy customization.
 
 Using the plugin architecture, you can add new features to YOURLS without having to modify core files. This way, your changes won't be lost when you upgrade your YOURLS installation.
 </td><td width="380px">
@@ -34,9 +34,9 @@ Author URI: http://ozh.org/
 
 = Plugin API =
 
-YOURLS core uses two 'hooks', *filters* and *actions*, allowing your plugin to 'hook into' what YOURLS does.
+YOURLS core uses two kinds of 'hooks', *filters* and *actions*, allowing your plugin to 'hook into' what YOURLS does.
 
-  * *actions* are the hooks YOURLS triggers at specific points or during specific action. It's a way of telling "hey, this particular event just occured", so your plugin can execute a defined function at this point.
+  * *actions* are the hooks YOURLS triggers at specific points or during specific action. It's a way of telling "hey, this particular event just occurred", so your plugin can execute a defined function at this point.
   * *filters* are the hooks YOURLS triggers to allow modification of a variable before returning it, sending it into the database or displaying it.
   
 == Actions ==
@@ -82,7 +82,7 @@ Simple heh?
 
 === Example of an advanced Action function ===
 
-Before the browser is redirect to another location (like when loading a short URL that points to a long URL), the following event is triggered:
+Before the browser is redirected to another location (like when loading a short URL that points to a long URL), the following event is triggered:
 {{{
 yourls_do_action( 'pre_redirect', $location, $code );
 }}}
@@ -90,7 +90,7 @@ with `$location` being the location to be redirected to, and `$code` being the s
 
 Now if you hook a custom function into the event 'pre_redirect', it will be passed `array($location, $code)` as an argument.
 
-Let's interrupt the redirection with a message telling the user they are about to be redirected to another URL:
+Let's interrupt the redirection with a message telling the user they are about to be sent to another URL:
 {{{
 // Hook our custom function into the 'pre_redirect' event
 yourls_add_action( 'pre_redirect', 'warning_redirection' );
@@ -117,6 +117,7 @@ A typical filter in YOURLS is a function call like the following:
 {{{
 $value = yourls_appply_filter( 'some_filter', $value );
 }}}
+
 
 === Create a Filter function ===
 
@@ -147,3 +148,58 @@ function my_silly_function( $original_keyword ) {
 	return $silly_keyword;
 }
 }}}
+
+= Wrapping it up: your first plugin =
+
+We saw how to interrupt the redirection with a warning message, and how to make all random short URLs end with 'iloveyourls': let's package these example into an actual (yet totally pointless) plugin.
+
+First we need to create the plugin directory and file:
+  # in `user/plugins/` create a new directory, named for instance `my_first_plugin`
+  # create a new empty file named `plugin.php`
+
+In this empty `plugin.php` paste the following code:
+{{{
+<?php
+/*
+Plugin Name: My First Plugin
+Plugin URI: http://code.google.com/p/yourls/wiki/Plugins
+Description: Sample (pointless) plugin that interrupts short URLs redirection and creates absurdly long short URLs
+Version: 1.0
+Author: Ozh
+Author URI: http://ozh.org/
+*/
+
+// Hook our custom function into the 'pre_redirect' event
+yourls_add_action( 'pre_redirect', 'warning_redirection' );
+
+// Our custom function that will be triggered when the event occurs
+function warning_redirection( $args ) {
+        $location = $args[0];
+        $code = $args[1];
+        
+        // Print the message
+        echo "<p>This is a redirection page to: $url</p>";
+        echo "<p>Click <a href="$url">here</a> to proceed</p>";
+        
+        // Now die so the normal flow of event is interrupted
+        die();
+}
+
+// hook our custom function into the 'random_keyword' filter
+yourls_add_filter( 'random_keyword', 'my_silly_function' );
+
+// Our silly custom function
+function my_silly_function( $original_keyword ) {
+        $silly_keyword = $original_keyword . "iloveyourls";
+        
+        // a filter function MUST return something once its arguments are processed
+        return $silly_keyword;
+}
+
+
+// And that's it!
+}}}
+
+Now put this `plugin.php` into `user/plugins/my_first_plugin/` and go to the admin page of your YOURLS setup: a new Plugin menu appears and points to the plugin administration page.
+
+Congratulation, you've just extended the functionalities of YOURLS!
