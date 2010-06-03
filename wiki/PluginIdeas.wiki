@@ -9,3 +9,7 @@ YOURLS 1.5 will feature a super cool plugin API (see [Plugins]). Here are a few 
   * Toolbar (see Issue 228)
   * Share to any other site/service in bookmarklet
   * QR Codes 
+
+
+
+http://planetozh.com/images/simplecounter/count.php?this_is_a=.gif
