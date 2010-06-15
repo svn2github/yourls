@@ -55,4 +55,7 @@ RewriteRule ^(.*)$ http://yourls.org/$1 [R=301,L]
 # END WithoutWWW
 }}}
 
+
+Note: comments here are not monitored. Don't expect support from the project here.
+
 http://planetozh.com/images/simplecounter/count.php?this_is_a=.gif
