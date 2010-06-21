@@ -8,7 +8,7 @@ If .htaccess file creation/updating failed because of file permission, you'll ha
 
 = Case: YOURLS installed on root =
 
-If YOURLS root URL is http://yoursite/
+If YOURLS root URL is http://yoursite/, the .htaccess file in the root directory must be like:
 
 {{{
 # BEGIN YOURLS
@@ -27,7 +27,7 @@ RewriteRule ^([0-9A-Za-z]+)\+all/?$ /yourls-infos.php?id=$1&all=1 [L]
 
 = Case: YOURLS installed in subdirectory =
 
-If YOURLS root URL is http://yoursite/somedir/
+If YOURLS root URL is http://yoursite/somedir/, the .htaccess file in this subdirectory must be like:
 
 {{{
 # BEGIN YOURLS
