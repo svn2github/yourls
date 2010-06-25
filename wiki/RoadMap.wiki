@@ -21,6 +21,7 @@
 
   * Major DB schema rework (Issue 218 and will allow users, tags and notes)
   * Tags (and notes) for URLs (Issue 13)
+  * Implementation of KSES for enhanced security
 
 = Future Features =
 
