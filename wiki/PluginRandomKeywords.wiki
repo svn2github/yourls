@@ -1,6 +1,6 @@
 #summary Plugin: Assign random keyword
 
-Plugin for YOURLS 1.5+: Assign randoms keyword to shorturls, like bitly (sho.rt/hJudjK)
+Plugin for YOURLS 1.5+: Assign randoms keyword to shorturls, like bitly (ie http://sho.rt/hJudjK)
 
 = Install =
 
