@@ -1,14 +1,14 @@
 #summary A few ideas or whishlist for plugins
 
-YOURLS 1.5 will feature a super cool plugin API (see [Plugins]). Here are a few plugins ideas I might make
+YOURLS 1.5 features a super cool plugin API (see [Plugins]). Here are a few plugins ideas I might make
 
-  * Random keyword URL (see Issue 123)
+  * ~~Random keyword URL~~ (see Issue 123) See PluginRandomKeywords
   * More control over keyword URLs: custom character set for instance
   * Spam control & URL blacklists
   * Anti bruteforce login with blacklisting IP after a number of failed attempts
-  * Toolbar (see Issue 228)
-  * Share to any other site/service in bookmarklet
-  * QR Codes 
+  * ~~Toolbar~~ (see Issue 228) Implemented a core plugin
+  * ~~Share to any other site/service in bookmarklet~~ See PluginShareTumblr 
+  * QR Codes (see Issue 300 for an unofficial plugin)
 
 
 
