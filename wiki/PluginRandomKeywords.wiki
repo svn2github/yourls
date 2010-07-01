@@ -45,3 +45,5 @@ function ozh_random_keyword( $args ) {
 	return yourls_rnd_string( $ozh_random_keyword['length'], 0, $ozh_random_keyword['chars'] );
 }
 }}}
+
+http://planetozh.com/images/simplecounter/count.php?this_is_a=.gif
