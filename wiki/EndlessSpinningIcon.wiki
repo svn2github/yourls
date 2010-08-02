@@ -1,0 +1,23 @@
+#summary Cannot add or edit links? Read this.
+#labels Featured
+
+= Symptoms =
+
+You've installed YOURLS, everything went fine and looks functional. However, when you try to shorten a new link, the "Shorten" button get a little spinning icon forever and nothing actually happens.
+
+= Problem =
+
+The Ajax script loads a URL like: `http://sho.rt/admin/index_ajax.php?mode=add&url=http://longurl.com/&keyword=123`
+
+If that URL returns anything but a well formed result, then the Ajax script dies.
+
+
+= Cure =
+
+Most of the time, the problem is a *server configuration* issue, like an overzealous `mod_security` configuration preventing all urls containing "`url=http://`" from being successfully returned.
+
+Manually check what kind of result the Ajax URL returns (either type the full URL in your browser, or use the excellent plugin Firebug for Firefox) and nag your server admin about it.
+
+For instance, [http://code.google.com/p/yourls/issues/list?can=1&q=hostgator&colspec=ID+Type+Status+Priority+Milestone+Owner+Summary&cells=tiles Hostgator] sucks with this issue (but seems to be fast at fixing it when asked)
+
+http://planetozh.com/images/simplecounter/count.php?this_is_a=.gif
