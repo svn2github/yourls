@@ -1,4 +1,5 @@
 #summary Plugin: Share on Tumblr
+#labels Plugin
 
 Plugin for YOURLS 1.5+: in the Quick Share box, add a one-click share to Tumblr link.
 
