@@ -18,10 +18,17 @@ Plugin for YOURLS 1.5+: Assign random keywords to shorturls, like bitly (ie http
 Plugin Name: Random Keywords
 Plugin URI: http://yourls.org/
 Description: Assign random keywords to shorturls, like bitly (sho.rt/hJudjK)
-Version: 1.0
+Version: 1.1
 Author: Ozh
 Author URI: http://ozh.org/
 */
+
+/* Release History:
+ *
+ *  1.0    Initial release
+ *  1.1    Added: don't increment sequential keyword counter & save one SQL query
+ *         Fixed: plugin now complies to character set defined in config.php
+ */
 
 global $ozh_random_keyword;
 
