@@ -6,8 +6,8 @@ Plugin for YOURLS 1.5+: in the Quick Share box, add a one-click share to Tumblr 
 = Install =
 
   * In `/user/plugins`, create a new folder named `quickshare-on-tumblr`
-  * Create a blank file named `plugin.php`
-  * Cut and paste the following code
+  * In this new directory, create a blank file named `plugin.php`
+  * In this new file, cut and paste the following code
   * Go to the Plugins administration page and activate the plugin
 
 = Code =
