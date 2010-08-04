@@ -1,5 +1,5 @@
 #summary How to make Plugins for YOURLS
-#labels Featured
+#labels Featured,Plugin
 
 <table><tr><td>
 = Plugins =
