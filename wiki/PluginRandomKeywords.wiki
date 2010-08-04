@@ -1,4 +1,5 @@
 #summary Plugin: Assign random keywords
+#labels Plugin
 
 Plugin for YOURLS 1.5+: Assign random keywords to shorturls, like bitly (ie http://sho.rt/hJudjK)
 
