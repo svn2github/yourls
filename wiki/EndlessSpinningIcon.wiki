@@ -16,7 +16,7 @@ If that URL returns anything but a well formed result, then the Ajax script dies
 
 Most of the time, the problem is a *server configuration* issue, like an overzealous `mod_security` configuration preventing all urls containing "`url=http://`" from being successfully returned.
 
-Manually check what kind of result the Ajax URL returns (either type the full URL in your browser, or use the excellent plugin Firebug for Firefox) and nag your server admin about it.
+Manually check what kind of result the Ajax URL returns (either type the full URL in your browser, or use the excellent plugin Firebug for Firefox) and nag your server admin about it. You may also find very valuable information in the server error log.
 
 For instance, [http://code.google.com/p/yourls/issues/list?can=1&q=hostgator&colspec=ID+Type+Status+Priority+Milestone+Owner+Summary&cells=tiles Hostgator] sucks with this issue (but seems to be fast at fixing it when asked)
 
