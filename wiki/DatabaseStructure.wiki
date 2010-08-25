@@ -9,7 +9,7 @@ It's weak, performance and disk space wise, and does not allow to easily add new
 
 (See RoadMap)
 
-http://yourls.googlecode.com/files/yourls_db.jpg
+http://yourls.googlecode.com/files/yourls-db-v2.jpg
 
 Legend:
   * PK  primary key
