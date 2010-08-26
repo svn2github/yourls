@@ -96,10 +96,7 @@ HTML;
 
 function ozh_yourls_linkmr_process() {
 	// Check nonce
-	if( !isset( $_POST['nonce'] ) or !yourls_verify_nonce( $_POST['nonce'], 'link_mass_remove' ) ) {
-		echo 'Unauthorized action or expired link';
-		return;
-	}
+	yourls_verify_nonce( 'link_mass_remove' );
 	
 	$where = '';
 	
