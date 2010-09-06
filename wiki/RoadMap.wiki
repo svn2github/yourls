@@ -34,6 +34,5 @@
 Things that may be of interest for some but don't interest me that much :)
 
   * Interface localization (Issue 52)
-  * Google Safebrowsing API (Issue 74)
 
 http://planetozh.com/images/simplecounter/count.php?this_is_a=.gif
