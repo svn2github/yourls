@@ -13,6 +13,7 @@
 
 
 = 1.5 =
+
   * Plugin architecture and API
   * Save page titles (Issue 139)
   * Maintenance mode (Issue 221)
@@ -21,13 +22,14 @@
 
   * Major DB schema rework (Issue 218 and will allow users, tags and notes)
   * Tags (and notes) for URLs (Issue 13)
-  * Implementation of KSES for enhanced security
+
+= 1.7 =
+
+  * Google Analytics support (Issue 65, Issue 475)
 
 = Future Features =
 
   * User management (multi user, user roles, no more plain text passwords in config file)
-  * Google Analytics support (Issue 65)
-
 
 = Far Future Features =
 
