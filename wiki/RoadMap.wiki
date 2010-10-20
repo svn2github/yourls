@@ -30,6 +30,7 @@
 = Future Features =
 
   * User management (multi user, user roles, no more plain text passwords in config file)
+  * Multisite feature (one install to manage several domains)
 
 = Far Future Features =
 
