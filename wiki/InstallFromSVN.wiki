@@ -1,0 +1,28 @@
+#summary How to install the current SVN version
+#labels Featured
+
+= Running SVN =
+
+The "SVN" (or "trunk") version is usually stable enough for live servers. My main shortener at http://ozh.in/ is running on trunk.
+
+Occasionaly I may label a version a "X.XX-alpha-dont-use" so you may want to check the current [http://code.google.com/p/yourls/source/browse/trunk/includes/version.php version.php] first.
+
+Running trunk is a great way to have the latest features before everyone else. It's also a great way to experience a few bugs before them, but hopefully report them so you can contribute to better software :)
+
+
+= How-to for newbies =
+
+Crash tutorial for Windows users:
+
+  * Install [http://tortoisesvn.net/downloads TortoiseSVN]
+  * Create a new directory
+  * Right click on that directory, chose "SVN Checkout"
+  * Checkout from the URL http://yourls.googlecode.com/svn/trunk/
+  * That's it.
+
+Now it'll take a click to update your YOURLS install.
+
+
+(this page is not monitored. Don't comment here.)
+
+http://planetozh.com/images/simplecounter/count.php?this_is_a=.gif
