@@ -1,0 +1,6 @@
+#summary Donations always warm the heart
+#labels Featured
+
+Donations definitely warm the heart, there are a nice way to say "thank you" for something that is developed and released for free.
+
+If you want to say "thanks", and any amount of money says "thanks", you can paypal me a beer: http://yourls.org/donate
