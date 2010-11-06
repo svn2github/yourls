@@ -1,29 +1,17 @@
 #summary More or less planned features. No, there's no ETA.
 #labels Featured
 
-= 1.4 =
+= Current versions and earlier =
 
-  * Stats
+Check the [http://code.google.com/p/yourls/source/browse/trunk/changelog.txt changelog]
 
-
-= 1.4.1 =
-
-  * Various cosmetic fixes
-  * Passwordless authentification
-
-
-= 1.5 =
-
-  * Plugin architecture and API
-  * Save page titles (Issue 139)
-  * Maintenance mode (Issue 221)
-
-= 1.6 =
+= Version 1.6 =
 
   * Major DB schema rework (Issue 218 and will allow users, tags and notes)
+  * Maintenance mode (Issue 221)
   * Tags (and notes) for URLs (Issue 13)
 
-= 1.7 =
+= Version 1.7 =
 
   * Google Analytics support (Issue 65, Issue 475)
 
