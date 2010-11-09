@@ -17,10 +17,7 @@ RewriteEngine On
 RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^([0-9A-Za-z]+)/?$ /yourls-go.php?id=$1 [L]
-RewriteRule ^([0-9A-Za-z]+)\+/?$ /yourls-infos.php?id=$1 [L]
-RewriteRule ^([0-9A-Za-z]+)\+all/?$ /yourls-infos.php?id=$1&all=1 [L]
-
+RewriteRule ^(.*)$ /yourls-loader.php [L]
 </IfModule>
 # END YOURLS
 }}}
@@ -36,16 +33,13 @@ RewriteEngine On
 RewriteBase /somedir/
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^([0-9A-Za-z]+)/?$ /somedir/yourls-go.php?id=$1 [L]
-RewriteRule ^([0-9A-Za-z]+)\+/?$ /somedir/yourls-infos.php?id=$1 [L]
-RewriteRule ^([0-9A-Za-z]+)\+all/?$ /somedir/yourls-infos.php?id=$1&all=1 [L]
+RewriteRule ^(.*)$ /somedir/yourls-loader.php [L]
 </IfModule>
-# END YOURLS
-}}}
+# END YOURLS}}}
 
 = Bonus: Force non-WWW =
 
-Add this at the beginning of the .htaccess file
+Add this at the beginning of the .htaccess file, replacing `yourls.org` with your own domain
 
 {{{
 # BEGIN WithoutWWW
