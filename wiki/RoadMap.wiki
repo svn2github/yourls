@@ -19,6 +19,8 @@ Check the [http://code.google.com/p/yourls/source/browse/trunk/changelog.txt cha
 
   * User management (multi user, user roles, no more plain text passwords in config file)
   * Multisite feature (one install to manage several domains)
+  * Complete installer & options managed through an admin page (no more config.php editing)
+
 
 = Far Future Features =
 
