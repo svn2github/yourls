@@ -1,7 +1,7 @@
 #summary Ignore bots hits in your stats
 #labels Plugin
 
-Plugin for YOURLS 1.5+: Ignore bot hits in your stats (both click count as seen in the main admin page and in detailed stats)
+Plugin for YOURLS 1.5.1+: Ignore bot hits in your stats (both click count as seen in the main admin page and in detailed stats)
 
 = Install =
 
@@ -60,6 +60,8 @@ function ozh_dlb_skip_if_bot() {
 }}}
 
 = More =
+
+Users of YOURLS *1.5* need to update using the SVN snapshot until there is an official 1.5.1 build.
 
 The list of bot user agent strings has been compiled from one of my own YOURLS setup: user-agents *looking like* bots with more than 100 hits. There is no reliable way to determine if a client is a bot or not.
 
