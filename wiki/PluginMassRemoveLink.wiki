@@ -2,6 +2,7 @@
 #labels Plugin
 
 Plugin for YOURLS 1.5+: Remove several links at once. Select by date, date range, IP or URL matching.
+
 Running YOURLS 1.5? Read the comments below if things are not working for you.
 
 = Install =
