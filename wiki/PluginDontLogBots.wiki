@@ -1,4 +1,4 @@
-#summary Ignore bots hits in your stats
+#summary Plugin: Ignore bots hits in your stats
 #labels Plugin
 
 Plugin for YOURLS 1.5.1+: Ignore bot hits in your stats (both click count as seen in the main admin page and in detailed stats)
