@@ -1,4 +1,4 @@
-#summary Add .qr to a short url to display its QR Code
+#summary Plugin: Add .qr to a short url to display its QR Code
 #labels Plugin
 
 Plugin for YOURLS 1.5+: add ".qr" to short URLs to display the shorturl's QR code.
