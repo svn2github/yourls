@@ -1,4 +1,4 @@
-#summary Mass remove links (by IP, date...)
+#summary Plugin: Mass remove links (by IP, date...)
 #labels Plugin
 
 Plugin for YOURLS 1.5+: Remove several links at once. Select by date, date range, IP or URL matching.
