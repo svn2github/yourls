@@ -27,6 +27,7 @@ Check the [http://code.google.com/p/yourls/source/browse/trunk/changelog.txt cha
 Things that may be of interest for some but don't interest me that much :)
 
   * Interface localization (Issue 52)
+  * Theme support
 
 Related: see DatabaseStructure
 
