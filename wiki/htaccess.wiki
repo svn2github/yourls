@@ -40,7 +40,7 @@ RewriteRule ^(.*)$ /somedir/yourls-loader.php [L]
 
 = Bonus: Force non-WWW =
 
-Add this *at the beginning* of the .htaccess file, replacing `yourls.org` with your own domain
+Add this after the YOURLS block in your .htaccess file, replacing `yourls.org` with your own domain
 
 {{{
 # BEGIN WithoutWWW
