@@ -173,7 +173,7 @@ yourls_add_action( 'pre_redirect', 'warning_redirection' );
 
 // Our custom function that will be triggered when the event occurs
 function warning_redirection( $args ) {
-        $location = $args[0];
+        $url  = $args[0];
         $code = $args[1];
         
         // Print the message
