@@ -101,7 +101,7 @@ function warning_redirection( $args ) {
 	
 	// Print the message
 	echo "<p>This is a redirection page to: $url</p>";
-	echo "<p>Click <a href="$url">here</a> to proceed</p>";
+	echo "<p>Click <a href='$url'>here</a> to proceed</p>";
 	
 	// Now die so the normal flow of event is interrupted
 	die();
@@ -178,7 +178,7 @@ function warning_redirection( $args ) {
         
         // Print the message
         echo "<p>This is a redirection page to: $url</p>";
-        echo "<p>Click <a href="$url">here</a> to proceed</p>";
+        echo "<p>Click <a href='$url'>here</a> to proceed</p>";
         
         // Now die so the normal flow of event is interrupted
         die();
