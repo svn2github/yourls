@@ -50,6 +50,9 @@ RewriteRule ^(.*)$ http://yourls.org/$1 [R=301,L]
 # END WithoutWWW
 }}}
 
+This directive MAY or MAY NOT work on your host (ie `http://sho.rt/stuff` might work fine and `http://www.sho.rt/stuff` might not). If it doesn't work, simply stick to one domain, either with or without www.
+
+----
 
 Note: comments here are not monitored. Don't expect support from the project here.
 
