@@ -1,0 +1,26 @@
+#summary What to do if your issue is closed with WontFix and PossibleWithAPlugin
+
+= Keeping things light =
+
+Some issues here are feature requests or "is it possible to do this and that" requests.
+
+One of the primary goal of YOURLS is to achieve balance between features and efficiency. In other words, to keep it as light as possible while being powerful. In other words, to keep away from bloating core with feature that won't be used by many.
+
+So, yes, feature requests are often closed with `WonfFix`.
+
+= There a plugin API for this =
+
+Most of the time, feature that are requested won't be implemented into core, but are easily implementable with a plugin. That's the whole point of the plugin API that has been introduced in YOURLS.
+
+If an issue is closed with `WonfFix` and `PossibleWithAPlugin`, all you have to do now is get that plugin coded.
+
+= Find a plugin coder =
+
+If you can't code yourself and really want that feature implemented, head towards freelancer sites (getacoder.com, elance.com, etc...) and post your project. You should get very affordable quotes.
+
+Another option if quality, full YOURLS code knowledge and future-proof coding are mandatory is to ask me (Ozh, ozh at ozh dot org) for a quote. Depending on the project and my free time, I may be able to help you.
+
+----
+Note: comments here are not monitored. Don't expect support from the project here.
+
+http://planetozh.com/images/simplecounter/count.php?this_is_a=.gif
