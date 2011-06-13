@@ -1,6 +1,89 @@
 #summary List of known YOURLS plugins
+#labels Featured,Plugin
 
-Placeholder for an upcoming list of known YOURLS plugins.
+This page will list known YOURLS plugins (till there are too many and this become impractical)
+
+= Core plugins =
+
+Core plugins are bundled with YOURLS. They aim to either provide sample code for people who want to make their own plugins (it's easy!), or implement often requested features.
+
+= Normal plugins =
+
+These plugins are written (and hopefully maintained) by Ozh http://yourls.googlecode.com/files/ozh.png or other YOURLS users. Because a plugin is listed here does not guarantee that its code is clean, future proof or anything (unless it's been made by Ozh and as long as he works for the project;)
+
+===[http://code.google.com/p/yourls/wiki/PluginRandomKeywords Random Keywords]http://yourls.googlecode.com/files/ozh.png===
+Assign random keywords to shorturls, like bitly (ie http://sho.rt/hJudjK)
+
+===[http://code.google.com/p/yourls/wiki/PluginQRCodeShortURL QRCode]http://yourls.googlecode.com/files/ozh.png===
+Add ".qr" to short URLs to display the shorturl's QR code
+
+===[http://code.google.com/p/yourls/wiki/PluginDontLogBots Dont Log Bots]http://yourls.googlecode.com/files/ozh.png===
+Ignore bot hits in your stats (both click count as seen in the main admin page and in detailed stats) 
+
+===[http://code.google.com/p/yourls/wiki/PluginMassRemoveLink Mass Remove Link]http://yourls.googlecode.com/files/ozh.png===
+Remove several links at once. Select by date, date range, IP or URL matching.
+
+===[http://code.google.com/p/yourls/wiki/PluginShareTumblr Share With Tumblr]http://yourls.googlecode.com/files/ozh.png===
+In the Quick Share box, add a one-click share to Tumblr link.
+
+===[http://code.google.com/p/yourls/wiki/PluginPreviewURL Preview URL]http://yourls.googlecode.com/files/ozh.png===
+Add the character '~' to a short URL to display a preview screen before redirection 
+
+===[http://code.google.com/p/yourls/issues/detail?id=661 Piwik Stats]===
+Integrate statistics with Piwik
+
+===[http://blog.yourls.org/2011/04/yourls-abuse-anti-spam-plugins/ Abuse Desk for YOURLS]===
+A Google Safe Browsing implementation for YOURLS to avoid spam links
+
+===[http://blog.yourls.org/2011/04/yourls-abuse-anti-spam-plugins/ Fishtank]===
+Prevent spam links using Fishtank's API
+
+===[http://pastie.org/1833229 Virustotal for YOURLS]===
+Avoid spam links with Virustotal
+
+===[http://blog.yourls.org/2011/03/yourls-plugin-example-conditional-toolbar/ Conditional Toolbar]http://yourls.googlecode.com/files/ozh.png===
+A plugin to conditionally enable the toolbar: http://sho.rt/blah for normal redirect, http://sho.rt/tb/blah for a toolbar
+
+===[http://code.google.com/p/yourls/issues/detail?id=331#c23 YOURLS IDN]http://yourls.googlecode.com/files/ozh.png===
+Plugin to add IDN support to YOURLS.
+
+===[http://octo.it/yourls-gitweb/ YOURLS Gitweb]===
+automatically redirect to a Gitweb installation, if the provided keyword identifies a Git object
+
+===[http://www.mattytemple.com/2010/12/yourls-plugin-skimlinks/ Skimlinks]===
+Push all links through Skimlinks to automatically embed affiliate codes
+
+===[http://laaatech.com/yourls-plugin-popular-links Popular Links]===
+Adds an admin page that displays your shortener's most popular links
+
+===[http://www.matbra.com/en/code/google-analytics-yourls-plugin/ Google Analytics YOURLS Plugin]===
+Add support for Google Analytics
+
+===[http://www.matbra.com/en/code/multi-user-yourls-plugin/ Multi User]===
+Add support for multiple users
+
+===[http://blog.yourls.org/2011/06/yourls-apc-cache-plugin/ YOURLS APC Cache]===
+Add support for APC to reduce MySQL queries
+
+===[http://blog.yourls.org/2011/04/yourls-identi-ca-and-tumblr-plugins/ Identi.ca for YOURLS]===
+Share YOURLS links via identi.ca
+
+
+= Get your plugin listed here =
+
+You made a plugin? Awesome news! Getting your plugin listed here is easy:
+  # First, get your plugin hosted somewhere. Prefer more established platforms such as Google Code or Github rather than a pastebin clone.
+  # Ideally, your plugin should be announced where users can post comments, submit bug reports and give feedback. If you have your own blog, that's perfect. You can also use [http://blog.yourls.org/forums/ YOURLS Forums]
+  # Last part: once step 1 and 2 are completed, ask Ozh to get listed here. The safest way is to send an email to `ozh at ozh dot org`
+
+= Related ressources =
+
+  * [http://code.google.com/p/yourls/wiki/Plugins How to write YOURLS plugins] is your first crash course
+  * PluginIdeas have some ideas if you're looking for some inspiration
+  * The official [http://blog.yourls.org/ YOURLS Blog] is a place for announcements and YOURLS plugins news
+
+---
+
 
 
 
