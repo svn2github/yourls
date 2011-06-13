@@ -76,15 +76,12 @@ You made a plugin? Awesome news! Getting your plugin listed here is easy:
   # Ideally, your plugin should be announced where users can post comments, submit bug reports and give feedback. If you have your own blog, that's perfect. You can also use [http://blog.yourls.org/forums/ YOURLS Forums]
   # Last part: once step 1 and 2 are completed, ask Ozh to get listed here. The safest way is to send an email to `ozh at ozh dot org`
 
-= Related ressources =
+= Related resources =
 
   * [http://code.google.com/p/yourls/wiki/Plugins How to write YOURLS plugins] is your first crash course
   * PluginIdeas have some ideas if you're looking for some inspiration
   * The official [http://blog.yourls.org/ YOURLS Blog] is a place for announcements and YOURLS plugins news
 
 ---
-
-
-
 
 http://planetozh.com/images/simplecounter/count.php?this_is_a=.gif
