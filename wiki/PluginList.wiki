@@ -65,6 +65,9 @@ Add support for multiple users
 ===[http://blog.yourls.org/2011/06/yourls-apc-cache-plugin/ YOURLS APC Cache]===
 Add support for APC to reduce MySQL queries
 
+===[https://github.com/ianbarber/Yourls-Separate-Users YOURLS Separate Users]===
+Adds a username to each created URL, and filters the admin interface.
+
 ===[http://blog.yourls.org/2011/04/yourls-identi-ca-and-tumblr-plugins/ Identi.ca for YOURLS]===
 Share YOURLS links via identi.ca
 
