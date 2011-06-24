@@ -71,6 +71,9 @@ Adds a username to each created URL, and filters the admin interface.
 ===[http://blog.yourls.org/2011/04/yourls-identi-ca-and-tumblr-plugins/ Identi.ca for YOURLS]===
 Share YOURLS links via identi.ca
 
+===[http://www.seodenver.com/add-google-analytics-link-tagging-yourls/ Google Analytics Link Tagging]===
+Add GA tags (utm_source and others) to your shortened links
+
 = Get your plugin listed here =
 
 You made a plugin? Awesome news! Getting your plugin listed here is easy:
