@@ -74,6 +74,9 @@ Share YOURLS links via identi.ca
 ===[http://www.seodenver.com/add-google-analytics-link-tagging-yourls/ Google Analytics Link Tagging]===
 Add GA tags (utm_source and others) to your shortened links
 
+===[http://www.techblessings.com/projects/geo-redirect/ Geo Redirect]===
+Redirect users to different URLs depending on their country
+
 = Get your plugin listed here =
 
 You made a plugin? Awesome news! Getting your plugin listed here is easy:
