@@ -1,6 +1,10 @@
 #summary More or less planned features. No, there's no ETA.
 #labels Featured
 
+= When will next version be ready? =
+
+When it's done.
+
 = Current versions and earlier =
 
 Check the [http://code.google.com/p/yourls/source/browse/trunk/changelog.txt changelog]
