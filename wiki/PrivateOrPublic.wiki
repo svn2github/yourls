@@ -23,3 +23,7 @@ Also, since there is no login/password needed, there will be no Secret Token on 
 If you want to run your own little bitly, you want to :
   * set your install to *private* : `define( 'YOURLS_PRIVATE', true );`
   * install a *public interface* in the root directory. There's a sample one provided in the package (see `sample-public-front-page.php.txt`)
+
+---
+
+http://planetozh.com/images/simplecounter/count.php?this_is_a=.gif
