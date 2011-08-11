@@ -22,6 +22,11 @@ Crash tutorial for Windows users:
 
 Now it'll take a click to update your YOURLS install.
 
+= Nightly Builds =
+
+Every night the current trunk is compiled into a regular zip archive. You can find these unofficial packages here: http://yourls.org/nightly-builds/
+
+
 
 (this page is not monitored. Don't comment here.)
 
