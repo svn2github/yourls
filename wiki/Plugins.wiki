@@ -203,11 +203,17 @@ Now put this `plugin.php` into `user/plugins/my_first_plugin/` and go to the adm
 
 Congratulation, you've just extended the functionalities of YOURLS!
 
+= List of hooks =
+
+A full [http://yourls.org/hooklist.php list of hooks] (actions and filters) is generated every night against the current development version of YOURLS, aka [http://code.google.com/p/yourls/source/browse/#svn%2Ftrunk trunk].
+
+If you code a plugin, you should run the trunk version on a test computer. Read InstallFromSVN if you don't know how to do this.
+
 = Coding Guidelines Or Die =
 
   * Prefix everything. Function names, global variables, classes, option names, everything should be uniquely prefixed to avoid conflict with another plugin or, worse, YOURLS' core. The best naming scheme to date is `nick_project_meaningful_stuff` (eg `ozh_pingfm_add_more_cheese`, `joe_captcha_validate_input`, etc..)
   * Corollary : you *must not* use `yourls_` as a prefix. This is for core functions only.
-  * Code your plugin against the latest trunk (see InstallFromSVN). It'll be easier for you to follow code development and request inclusions or any missing hook
+  * Code your plugin against the latest trunk (see InstallFromSVN). It'll be easier for you to follow code development and request inclusions of any missing hook
   * Code with `define( 'YOURLS_DEBUG', true );` in your `config.php` to catch PHP notices and coding mistakes soon
   * Write clean, whitespaced, commented code. I live by [http://codex.wordpress.org/WordPress_Coding_Standards WordPress Coding Standards] and so should you :)
 
