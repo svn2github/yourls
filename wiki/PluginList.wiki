@@ -86,6 +86,9 @@ This plugin "pseudonymizes" the IP addresses so that it is in line with the Germ
 ===[http://technicalnotebook.com/wiki/display/DEV/YourLS+Social+Toolbar YOURLS Social Toolbar]===
 A fork of the official sample toolbar plugin, with alternative display for Youtube videos.
 
+===[https://github.com/GautamGupta/YOURLS-Import-Export YOURLS Import Export]===
+A plugin to import and export YOURLS URL
+
 = Get your plugin listed here =
 
 You made a plugin? Awesome news! Getting your plugin listed here is easy:
