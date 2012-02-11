@@ -89,6 +89,9 @@ A fork of the official sample toolbar plugin, with alternative display for Youtu
 ===[https://github.com/GautamGupta/YOURLS-Import-Export YOURLS Import Export]===
 A plugin to import and export YOURLS URL
 
+===[https://github.com/koma5/typer typer, a yourls prank plugin]===
+Add an underscore _ to your shortlink and the user will be shown a page where they have to type the shortlink themselves.
+
 = Get your plugin listed here =
 
 You made a plugin? Awesome news! Getting your plugin listed here is easy:
