@@ -3,6 +3,8 @@
 
 This page will list known YOURLS plugins (till there are too many and this become impractical)
 
+*This page is not meant to file plugin requests or suggestions*. For plugin requests see wiki page [http://code.google.com/p/yourls/wiki/PossibleWithAPlugin PossibleWithAPlugin]
+
 = Core plugins =
 
 Core plugins are bundled with YOURLS. They aim to either provide sample code for people who want to make their own plugins (it's easy!), or implement often requested features.
@@ -103,6 +105,10 @@ You made a plugin? Awesome news! Getting your plugin listed here is easy:
 
   * [http://code.google.com/p/yourls/wiki/Plugins How to write YOURLS plugins] is your first crash course
   * The official [http://blog.yourls.org/ YOURLS Blog] is a place for announcements and YOURLS plugins news
+
+= Again =
+
+*This page is not meant to file plugin requests or suggestions*. For plugin requests see wiki page [http://code.google.com/p/yourls/wiki/PossibleWithAPlugin PossibleWithAPlugin]
 
 ---
 
