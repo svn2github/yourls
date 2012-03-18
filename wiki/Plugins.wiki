@@ -114,7 +114,7 @@ function warning_redirection( $args ) {
 
 A typical filter in YOURLS is a function call like the following:
 {{{
-$value = yourls_appply_filter( 'some_filter', $value );
+$value = yourls_apply_filter( 'some_filter', $value );
 }}}
 
 
