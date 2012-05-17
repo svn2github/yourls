@@ -94,6 +94,9 @@ A plugin to import and export YOURLS URL
 ===[https://github.com/koma5/typer typer, a yourls prank plugin]===
 Add an underscore _ to your shortlink and the user will be shown a page where they have to type the shortlink themselves.
 
+===[https://github.com/ianbarber/Yourls-SimpleDB-Clickqueue YOURLS SimpleDB Clickqueue]===
+Queue clicks to Amazon SimpleDB before processing. This allows using a regular MySQL store even in the face of a high frequency of writes, without concern of connection limit overflow. Clicks are inserted later into the database via an import job.
+
 = Get your plugin listed here =
 
 You made a plugin? Awesome news! Getting your plugin listed here is easy:
