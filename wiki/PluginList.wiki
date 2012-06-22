@@ -111,6 +111,9 @@ This plugin "pseudonymizes" the IP addresses so that it is in line with the Germ
 ===[http://code.google.com/p/yourls/wiki/PluginQRCodeShortURL QRCode]http://yourls.googlecode.com/files/ozh.png===
 Add ".qr" to short URLs to display the shorturl's QR code
 
+===[https://github.com/llonchj/yourls_plugins QueryString Forward]===
+Forward the query string on short link to long URL (eg http://sho.rt/kk?a=1 to http://longurl/somepage/?a=1)
+
 
      ====_R `__________`====
 
@@ -165,7 +168,7 @@ Avoid spam links with Virustotal
 
 You made a plugin? Awesome news! Getting your plugin listed here is easy:
   # First, get your plugin hosted somewhere. Prefer more established platforms such as Google Code or Github rather than a pastebin clone.
-  # Your plugin should be announced where users can post comments, submit bug reports and give feedback. If you have your own blog, that's perfect. You can also use [http://blog.yourls.org/forums/ YOURLS Forums]
+  # Your plugin should be announced where users can post comments, submit bug reports and give feedback. If you have your own blog, that's perfect. A Github page is very fine too.
   # Last part: once step 1 and 2 are completed, ask Ozh to get listed here. The safest way is to send an email to `ozh at ozh dot org`
 
 = Related resources =
