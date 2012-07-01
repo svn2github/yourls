@@ -13,7 +13,7 @@ Core plugins are bundled with YOURLS. They aim to either provide sample code for
 
 These plugins are written (and hopefully maintained) by Ozh http://yourls.googlecode.com/files/ozh.png or other YOURLS users. Because a plugin is listed here does not guarantee that its code is clean, future proof or anything (unless it's been made by Ozh and as long as he works for the project;)
 
-     ====_A`__________`====
+     ====_A_ `__________`====
 
 ===[http://blog.yourls.org/2011/04/yourls-abuse-anti-spam-plugins/ Abuse Desk for YOURLS]===
 A Google Safe Browsing implementation for YOURLS to avoid spam links
@@ -22,14 +22,14 @@ A Google Safe Browsing implementation for YOURLS to avoid spam links
 ===[http://blog.yourls.org/2011/06/yourls-apc-cache-plugin/ YOURLS APC Cache]===
 Add support for APC to reduce MySQL queries
 
-     ====_B `__________`====
+     ====_B_ `__________`====
 
-     ====_C `__________`====
+     ====_C_ `__________`====
 
 ===[http://blog.yourls.org/2011/03/yourls-plugin-example-conditional-toolbar/ Conditional Toolbar]http://yourls.googlecode.com/files/ozh.png===
 A plugin to conditionally enable the toolbar: http://sho.rt/blah for normal redirect, http://sho.rt/tb/blah for a toolbar
 
-     ====_D `__________`====
+     ====_D_ `__________`====
 
 ===[http://code.google.com/p/yourls/wiki/PluginDontLogBots Dont Log Bots]http://yourls.googlecode.com/files/ozh.png===
 Ignore bot hits in your stats (both click count as seen in the main admin page and in detailed stats)
@@ -37,14 +37,14 @@ Ignore bot hits in your stats (both click count as seen in the main admin page a
 ===[https://github.com/dgw/yourls-dont-track-admins Don't Track Admin Clicks]===
 Don't count clicks on short URL if user is logged in
 
-     ====_E `__________`====
+     ====_E_ `__________`====
 
-     ====_F `__________`====
+     ====_F_ `__________`====
 
 ===[http://blog.yourls.org/2011/04/yourls-abuse-anti-spam-plugins/ Fishtank]===
 Prevent spam links using Fishtank's API
 
-     ====_G `__________`====
+     ====_G_ `__________`====
 
 ===[http://www.techblessings.com/projects/geo-redirect/ Geo Redirect]===
 Redirect users to different URLs depending on their country
@@ -58,9 +58,9 @@ Add support for Google Analytics
 ===[http://www.seodenver.com/add-google-analytics-link-tagging-yourls/ Google Analytics Link Tagging]===
 Add GA tags (utm_source and others) to your shortened links
 
-     ====_H `__________`====
+     ====_H_ `__________`====
 
-     ====_I `__________`====
+     ====_I_ `__________`====
 
 ===[http://blog.yourls.org/2011/04/yourls-identi-ca-and-tumblr-plugins/ Identi.ca for YOURLS]===
 Share YOURLS links via identi.ca
@@ -71,13 +71,13 @@ Plugin to add IDN support to YOURLS.
 ===[https://github.com/GautamGupta/YOURLS-Import-Export YOURLS Import Export]===
 A plugin to import and export YOURLS URL
 
-     ====_J `__________`====
+     ====_J_ `__________`====
 
-     ====_K `__________`====
+     ====_K_ `__________`====
 
-     ====_L `__________`====
+     ====_L_ `__________`====
 
-     ====_M `__________`====
+     ====_M_ `__________`====
 
 ===[http://code.google.com/p/yourls/wiki/PluginMassRemoveLink Mass Remove Link]http://yourls.googlecode.com/files/ozh.png===
 Remove several links at once. Select by date, date range, IP or URL matching.
@@ -85,11 +85,11 @@ Remove several links at once. Select by date, date range, IP or URL matching.
 ===[http://www.matbra.com/en/code/multi-user-yourls-plugin/ Multi User]===
 Add support for multiple users
 
-     ====_N `__________`====
+     ====_N_ `__________`====
 
-     ====_O `__________`====
+     ====_O_ `__________`====
 
-     ====_P `__________`====
+     ====_P_ `__________`====
 
 ===[http://code.google.com/p/yourls/issues/detail?id=661 Piwik Stats]===
 Integrate statistics with Piwik
@@ -106,7 +106,7 @@ Add the character '~' to a short URL to display a preview screen before redirect
 ===[https://github.com/ubicoo/yourls-pseudonymize YOURLS Pseudonymize]===
 This plugin "pseudonymizes" the IP addresses so that it is in line with the German privacy laws (the last 2 segments/bytes of a visitor's IP address are removed)
 
-     ====_Q `__________`====
+     ====_Q_ `__________`====
 
 ===[http://code.google.com/p/yourls/wiki/PluginQRCodeShortURL QRCode]http://yourls.googlecode.com/files/ozh.png===
 Add ".qr" to short URLs to display the shorturl's QR code
@@ -115,15 +115,19 @@ Add ".qr" to short URLs to display the shorturl's QR code
 Forward the query string on short link to long URL (eg http://sho.rt/kk?a=1 to http://longurl/somepage/?a=1)
 
 
-     ====_R `__________`====
+     ====_R_ `__________`====
 
 ===[http://code.google.com/p/yourls/wiki/PluginRandomKeywords Random Keywords]http://yourls.googlecode.com/files/ozh.png===
 Assign random keywords to shorturls, like bitly (ie http://sho.rt/hJudjK)
 
-     ====_S `__________`====
+     ====_S_ `__________`====
 
 ===[https://github.com/ianbarber/Yourls-Separate-Users YOURLS Separate Users]===
 Adds a username to each created URL, and filters the admin interface.
+
+===[http://www.mattytemple.com/projects/yourls-share-files/ Share Files]===
+Add a form to upload files and share them using your YOURLS setup.
+
 
 ===[http://code.google.com/p/yourls/wiki/PluginShareTumblr Share With Tumblr]http://yourls.googlecode.com/files/ozh.png===
 In the Quick Share box, add a one-click share to Tumblr link.
@@ -137,7 +141,7 @@ Push all links through Skimlinks to automatically embed affiliate codes
 ===[http://technicalnotebook.com/wiki/display/DEV/YourLS+Social+Toolbar YOURLS Social Toolbar]===
 A fork of the official sample toolbar plugin, with alternative display for Youtube videos.
 
-     ====_T `__________`====
+     ====_T_ `__________`====
 
 
 ===[http://williamscastillo.com/code/yourls/tuber/ Tuber]===
@@ -146,20 +150,20 @@ Show the videos that you bookmark in their own page instead of redirecting to th
 ===[https://github.com/koma5/typer Typer, a yourls prank plugin]===
 Add an underscore _ to your shortlink and the user will be shown a page where they have to type the shortlink themselves.
 
-     ====_U `__________`====
+     ====_U_ `__________`====
 
-     ====_V `__________`====
+     ====_V_ `__________`====
 
 ===[http://pastie.org/1833229 Virustotal for YOURLS]===
 Avoid spam links with Virustotal
 
-     ====_W `__________`====
+     ====_W_ `__________`====
 
-     ====_X `__________`====
+     ====_X_ `__________`====
 
-     ====_Y `__________`====
+     ====_Y_ `__________`====
 
-     ====_Z `__________`====
+     ====_Z_ `__________`====
 
 
 
