@@ -26,6 +26,9 @@ Add support for APC to reduce MySQL queries
 
      ====_C_ `__________`====
 
+===[https://bitbucket.org/laceous/yourls-concurrency-fix API Concurrency Fix]===
+A plugin to resolve concurrency issues with the API as described in Issue 765.
+
 ===[http://blog.yourls.org/2011/03/yourls-plugin-example-conditional-toolbar/ Conditional Toolbar]http://yourls.googlecode.com/files/ozh.png===
 A plugin to conditionally enable the toolbar: http://sho.rt/blah for normal redirect, http://sho.rt/tb/blah for a toolbar
 
