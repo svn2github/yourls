@@ -1,0 +1,81 @@
+#summary YOURLS Coding Standards or your patch won't make it
+#labels Featured,Phase-Implementation
+
+Patches are very very welcome, but they have to be very very compliant to *YOURLS Coding Standards* or they'll otherwise be simply rejected.
+
+= #1 Rule Or Die =
+
+*Readability* is more important than cleverness or brevity.
+
+
+= Naming conventions =
+
+Use lowercase letters and underscores in variable and function names (never camelCase like `doTableResult`). Use unambiguous and self-documenting names.
+
+In core patches, always prefix all your PHP functions with `yourls_`.
+
+In plugins, prefix everything (functions, classes, global variables, HTML elements...) with a unique and personal prefix such as `joe_myplugin_`
+
+
+= Comments =
+
+There are *never* too many comments and I'd rather strip a few out before committing a patch than pull my hair trying to understand what's going on.
+
+For simple explanations, use inline commenting. For larger explanation, don't hesitation to break in multiple lines using `/* ... */`
+
+
+= Indentation and White Space =
+
+Your code must reflect logical structure and be easy on the eye
+  * Use tabs at the beginning of a line, spaces mid-line
+  * Align as many things as possible where it improves readability
+  * Vertically align begining of line blocks and end of blocks with opening and closing parenthesis `()`, brackets `[] ` and braces `{}`
+
+https://sites.google.com/site/yourlsproject/_/rsrc/1242072622148/Home/indentation.gif
+
+Put white space anywhere it will make your code _breathe_
+
+{{{
+// if, elseif, foreach, for and switch blocks
+foreach( $array as $key => $value } { ...
+
+// define a function
+function do_stuff( $param1= 'foo', $param2 = 'bar' ) { ...
+
+// call a function
+do_stuff( '31337', other_func( 42 ) );
+
+// white space around variable array items 
+$x = $foo['bar']; // string, no space = OK
+$y = $foo[ $bar ]; // variable, need spaces
+
+}}}
+
+
+= PHP tags =
+
+*Never* use shorthand PHP tags, because some servers are not configured to interpret them. *Always* use full PHP tag.
+
+Correct:
+{{{
+<?php ... ?>
+}}}
+
+Forbidden:
+{{{
+<? ... ?>
+<?= $var ?>
+}}}
+
+It is also best to omit the final closing PHP tag of a PHP file
+
+
+= More links =
+
+  * [http://codex.wordpress.org/WordPress_Coding_Standards WordPress Coding Standard] is the inspiration for this page
+  * [http://planetozh.com/blog/articles/make-clean-and-readable-sources-why-and-how/ Make Clean and Readable Sources — Why and How] is an article I wrote after reviewing several WordPress plugins
+
+---
+
+http://planetozh.com/images/simplecounter/count.php?this_is_a=.gif
+
