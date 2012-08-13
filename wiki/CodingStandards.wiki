@@ -1,7 +1,7 @@
 #summary YOURLS Coding Standards or your patch won't make it
 #labels Featured,Phase-Implementation
 
-Patches are very very welcome, but they have to be very very compliant to *YOURLS Coding Standards* or they'll otherwise be simply rejected.
+Patches are _very very_ welcome, but they have to be _very very_ compliant to *YOURLS Coding Standards* or they'll otherwise be simply rejected.
 
 = #1 Rule Or Die =
 
@@ -10,7 +10,7 @@ Patches are very very welcome, but they have to be very very compliant to *YOURL
 
 = Naming conventions =
 
-Use lowercase letters and underscores in variable and function names (never camelCase like `doTableResult`). Use unambiguous and self-documenting names.
+Use lowercase letters and underscores in variable and function names (never camelCase like `doTableResult`). Use unambiguous and self-documenting names instead of generic and meaningless names (eg `function2()` or `global $a`)
 
 In core patches, always prefix all your PHP functions with `yourls_`.
 
@@ -69,6 +69,13 @@ Forbidden:
 
 It is also best to omit the final closing PHP tag of a PHP file
 
+= Turn debugging on =
+
+Always develop with error reporting on. In YOURLS, this means you should add this to your dev `config.php` :
+{{{
+define( 'YOURLS_DEBUG', true );
+}}}
+
 
 = More links =
 
@@ -78,4 +85,3 @@ It is also best to omit the final closing PHP tag of a PHP file
 ---
 
 http://planetozh.com/images/simplecounter/count.php?this_is_a=.gif
-
