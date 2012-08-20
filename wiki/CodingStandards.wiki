@@ -1,12 +1,12 @@
 #summary YOURLS Coding Standards or your patch won't make it
 #labels Featured,Phase-Implementation
 
-Patches are _very very_ welcome, but they have to be _very very_ compliant to *YOURLS Coding Standards* or they'll otherwise be simply rejected.
+Patches are _very very_ welcome, but they have to be _very very_ compliant to *YOURLS Coding Standards* or they'll otherwise be rejected.
 
-= #1 Rule Or Die =
+= #1 Rules Or Die =
 
-*Readability* is more important than cleverness or brevity.
-
+  * *Readability* is more important than cleverness or brevity.
+  * Submit a patch against the SVN version or a nightly build .zip, *not* the latest official package available. See [http://code.google.com/p/yourls/wiki/InstallFromSVN InstallFromSVN]
 
 = Naming conventions =
 
