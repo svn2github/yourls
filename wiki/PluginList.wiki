@@ -131,7 +131,6 @@ Adds a username to each created URL, and filters the admin interface.
 ===[http://www.mattytemple.com/projects/yourls-share-files/ Share Files]===
 Add a form to upload files and share them using your YOURLS setup.
 
-
 ===[http://code.google.com/p/yourls/wiki/PluginShareTumblr Share With Tumblr]http://yourls.googlecode.com/files/ozh.png===
 In the Quick Share box, add a one-click share to Tumblr link.
 
@@ -143,6 +142,9 @@ Push all links through Skimlinks to automatically embed affiliate codes
 
 ===[http://technicalnotebook.com/wiki/display/DEV/YourLS+Social+Toolbar YOURLS Social Toolbar]===
 A fork of the official sample toolbar plugin, with alternative display for Youtube videos.
+
+===[https://github.com/ggwarpig/Yourls-Swap-Short-Url Swap Short URL]===
+A plugin to have http://sho.rt/blah while having YOURLS installed in http://sho.rt/yourls/
 
      ====_T_ `__________`====
 
