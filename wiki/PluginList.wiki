@@ -24,6 +24,10 @@ Add support for APC to reduce MySQL queries
 
      ====_B_ `__________`====
 
+===[https://github.com/LudoBoggio/YourlsBlacklistIPs Blacklist IPs]===
+A simple plugin to blacklist IPs from shortening URLs
+
+
      ====_C_ `__________`====
 
 ===[https://bitbucket.org/laceous/yourls-concurrency-fix API Concurrency Fix]===
