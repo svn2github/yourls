@@ -19,11 +19,11 @@ If an issue is closed with `WontFix` and `PossibleWithAPlugin`, all you have to 
 
 = Find a plugin coder =
 
-If you can't code yourself and really want that feature implemented, feel free to submit your idea to the [http://blog.yourls.org/forums YOURLS forums]. Someone there may be interested in giving you a hand and coding with/for you.
+If you can't code yourself and want a feature implemented, you need to find a plugin coder.
 
-Another option is to head towards freelancer sites (getacoder.com, elance.com, etc...) and post your project. You should get very affordable quotes.
+An option is to head towards freelancer sites (getacoder.com, elance.com, etc...) and post your project. You should get very affordable quotes.
 
-Another option, that includes quality, full YOURLS code knowledge and future-proof coding, is to ask me (Ozh, ozh at ozh dot org) for a quote. Depending on the project and my free time, I may be able to help you.
+Another option, that includes quality, full YOURLS code knowledge and future-proof coding, is to ask me (Ozh, contact me offsite by mail, ozh at ozh dot org) for a quote. Depending on the project and my free time, I may be able to help you.
 
 ----
 Note: comments here are not monitored. Don't expect support from the project here.
