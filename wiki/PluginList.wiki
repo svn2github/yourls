@@ -110,6 +110,9 @@ Adds an admin page that displays your shortener's most popular links
 ===[http://code.google.com/p/yourls/wiki/PluginPreviewURL Preview URL]http://yourls.googlecode.com/files/ozh.png===
 Add the character '~' to a short URL to display a preview screen before redirection
 
+===[http://code.google.com/p/yourls/wiki/PluginPublicPrefixNShorten Public "Prefix n' Shorten"]http://yourls.googlecode.com/files/ozh.png===
+Redirect `http://sho.rt/http://someurl.com/` to a public interface instead of the admin area
+
 ===[https://github.com/ubicoo/yourls-pseudonymize YOURLS Pseudonymize]===
 This plugin "pseudonymizes" the IP addresses so that it is in line with the German privacy laws (the last 2 segments/bytes of a visitor's IP address are removed)
 
