@@ -3,21 +3,18 @@
 
 = DB in YOURLS 1.5 and prior =
 
-It's weak, performance and disk space wise, and does not allow to easily add new features. Need to improve.
+Weak, performance and disk space wise, and does not allow to easily add new features. Need to improve.
 
-= Proposed DB schema for YOURLS 1.6 =
+http://blog.yourls.org/wp-content/uploads/2012/10/yourls-db-15.png
 
-(See RoadMap)
 
-http://yourls.googlecode.com/files/yourls-db-v2.jpg
+= DB in YOURLS 1.6 =
 
-Legend:
-  * PK  primary key
-  *  U  unique
-  *  K  index
+http://blog.yourls.org/wp-content/uploads/2012/10/yourls-db-16.png
 
-= Feedback? =
+More details on the [http://blog.yourls.org/2012/10/working-on-yourls-1-6-the-next-db-structure/ related blog post]
 
-Please comment below :)
+For the record, earlier reflexions: [http://yourls.googlecode.com/files/yourls-db.jpg version 1] and [http://yourls.googlecode.com/files/yourls-db-v2.jpg version 2]
 
+---- 
 http://planetozh.com/images/simplecounter/count.php?this_is_a=.gif
