@@ -3,7 +3,7 @@
 
 = When will next version be ready? =
 
-When it's done.
+When it's done. No ETA.
 
 = Current versions and earlier =
 
@@ -11,31 +11,25 @@ Check the [http://code.google.com/p/yourls/source/browse/trunk/changelog.txt cha
 
 = Version 1.6 =
 
-  * Major DB schema rework (Issue 218 and will allow users, tags and notes)
+  * Major DB schema rework -- see DatabaseStructure
   * Maintenance mode (Issue 221)
-  * Tags (and notes) for URLs (Issue 13)
 
-= Version 1.7 =
+= Stuff that should be worked on =
 
-  * Google Analytics support (Issue 65, Issue 475)
+There are things that would greatly or nicely improve YOURLS. If you feel like working on one of them, please get in touch :)
 
-= Future Features =
-
-They will make it in, but version is still undecided
-
-  * A sophisticated stat Dashboard
+  * A more sophisticated stat Dashboard
+  * Nicer admin interface
   * User management (multi user, user roles, no more plain text passwords in config file)
   * Multisite feature (one install to manage several domains)
   * Complete installer & options managed through an admin page (no more config.php editing)
-
-
-= Far Future Features =
-
-Things that may be of interest for some but don't interest me that much :)
-
   * Interface localization (Issue 52)
-  * Theme support
+  * Theme support ?
+  * Related: an enqueue/dequeue API for JS & CSS files like in WP
+  * A pseudo cron like in WP -- needs improvement of the HTTP functions to handle timeouts
+  * Archiving hit logs by day/month/year to save DB space (needs cron support I guess)
 
-Related: see DatabaseStructure
 
+
+----
 http://planetozh.com/images/simplecounter/count.php?this_is_a=.gif
