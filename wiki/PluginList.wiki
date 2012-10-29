@@ -101,6 +101,9 @@ Add support for multiple users
 ===[http://code.google.com/p/yourls/issues/detail?id=661 Piwik Stats]===
 Integrate statistics with Piwik
 
+===[https://github.com/interfasys/piwik-yourls Piwik-YOURLS]===
+Piwik and a few other features
+
 ===[https://github.com/miconda/yourls/tree/master/plugins/popular-clicks Popular Clicks]===
 Display the top of the most clicked links during past days
 
