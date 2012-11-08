@@ -3,7 +3,7 @@
 
 This page will list known YOURLS plugins (till there are too many and this become impractical)
 
-*This page is not meant to file plugin requests or suggestions*. For plugin requests see wiki page [http://code.google.com/p/yourls/wiki/PossibleWithAPlugin PossibleWithAPlugin]
+*This page is not meant to file plugin requests or suggestions*. For plugin requests read wiki page [http://code.google.com/p/yourls/wiki/PossibleWithAPlugin PossibleWithAPlugin]
 
 = Core plugins =
 
@@ -11,176 +11,183 @@ Core plugins are bundled with YOURLS. They aim to either provide sample code for
 
 = Normal plugins =
 
-These plugins are written (and hopefully maintained) by Ozh http://yourls.googlecode.com/files/ozh.png or other YOURLS users. Because a plugin is listed here does not guarantee that its code is clean, future proof or anything (unless it's been made by Ozh and as long as he works for the project;)
+These plugins are written (and hopefully maintained) by YOURLS users (a few by Ozh http://yourls.googlecode.com/files/ozh.png) or other YOURLS users.
 
-     ====_A_ `__________`====
+Note that being listed here does not guarantee that the plugin is approved, its code is clean, future proof or anything (unless it's been made by Ozh of course ;)
 
-===[http://blog.yourls.org/2011/04/yourls-abuse-anti-spam-plugins/ Abuse Desk for YOURLS]===
+=_<font color="#aaa">A:</font>_=
+
+==[http://blog.yourls.org/2011/04/yourls-abuse-anti-spam-plugins/ Abuse Desk for YOURLS]==
 A Google Safe Browsing implementation for YOURLS to avoid spam links
 
 
-===[http://blog.yourls.org/2011/06/yourls-apc-cache-plugin/ YOURLS APC Cache]===
+==[http://blog.yourls.org/2011/06/yourls-apc-cache-plugin/ YOURLS APC Cache]==
 Add support for APC to reduce MySQL queries
 
-     ====_B_ `__________`====
+=_<font color="#aaa">B:</font>_=
 
-===[https://github.com/LudoBoggio/YourlsBlacklistIPs Blacklist IPs]===
+==[https://github.com/LudoBoggio/YourlsBlacklistIPs Blacklist IPs]==
 A simple plugin to blacklist IPs from shortening URLs
 
 
-     ====_C_ `__________`====
+=_<font color="#aaa">C:</font>_=
 
-===[https://bitbucket.org/laceous/yourls-concurrency-fix API Concurrency Fix]===
+==[http://code.google.com/p/yourls-cas-plugin/ CAS Plugin]==
+Enable authentication through a CAS server
+
+==[https://bitbucket.org/laceous/yourls-concurrency-fix API Concurrency Fix]==
 A plugin to resolve concurrency issues with the API as described in Issue 765.
 
-===[http://blog.yourls.org/2011/03/yourls-plugin-example-conditional-toolbar/ Conditional Toolbar]http://yourls.googlecode.com/files/ozh.png===
+==[http://blog.yourls.org/2011/03/yourls-plugin-example-conditional-toolbar/ Conditional Toolbar]http://yourls.googlecode.com/files/ozh.png==
 A plugin to conditionally enable the toolbar: http://sho.rt/blah for normal redirect, http://sho.rt/tb/blah for a toolbar
 
-     ====_D_ `__________`====
+=_<font color="#aaa">D:</font>_=
 
-===[http://code.google.com/p/yourls/wiki/PluginDontLogBots Dont Log Bots]http://yourls.googlecode.com/files/ozh.png===
+
+==[http://code.google.com/p/yourls-domainlimit-plugin/ Domain Limit]==
+Limit the domains that users can create shortlinks to
+
+==[http://code.google.com/p/yourls/wiki/PluginDontLogBots Dont Log Bots]http://yourls.googlecode.com/files/ozh.png==
 Ignore bot hits in your stats (both click count as seen in the main admin page and in detailed stats)
 
-===[https://github.com/dgw/yourls-dont-track-admins Don't Track Admin Clicks]===
+==[https://github.com/dgw/yourls-dont-track-admins Don't Track Admin Clicks]==
 Don't count clicks on short URL if user is logged in
 
-     ====_E_ `__________`====
+=_<font color="#aaa">E:</font>_=
 
-     ====_F_ `__________`====
+=_<font color="#aaa">F:</font>_=
 
-===[http://blog.yourls.org/2011/04/yourls-abuse-anti-spam-plugins/ Fishtank]===
+==[http://blog.yourls.org/2011/04/yourls-abuse-anti-spam-plugins/ Fishtank]==
 Prevent spam links using Fishtank's API
 
-     ====_G_ `__________`====
+=_<font color="#aaa">G:</font>_=
 
-===[http://www.techblessings.com/projects/geo-redirect/ Geo Redirect]===
+==[http://www.techblessings.com/projects/geo-redirect/ Geo Redirect]==
 Redirect users to different URLs depending on their country
 
-===[http://octo.it/yourls-gitweb/ YOURLS Gitweb]===
+==[http://octo.it/yourls-gitweb/ YOURLS Gitweb]==
 Automatically redirect to a Gitweb installation, if the provided keyword identifies a Git object
 
-===[http://www.matbra.com/en/code/google-analytics-yourls-plugin/ Google Analytics YOURLS Plugin]===
+==[http://www.matbra.com/en/code/google-analytics-yourls-plugin/ Google Analytics YOURLS Plugin]==
 Add support for Google Analytics
 
-===[http://www.seodenver.com/add-google-analytics-link-tagging-yourls/ Google Analytics Link Tagging]===
+==[http://www.seodenver.com/add-google-analytics-link-tagging-yourls/ Google Analytics Link Tagging]==
 Add GA tags (utm_source and others) to your shortened links
 
-     ====_H_ `__________`====
+=_<font color="#aaa">H:</font>_=
 
-     ====_I_ `__________`====
+=_<font color="#aaa">I:</font>_=
 
-===[http://blog.yourls.org/2011/04/yourls-identi-ca-and-tumblr-plugins/ Identi.ca for YOURLS]===
+==[http://blog.yourls.org/2011/04/yourls-identi-ca-and-tumblr-plugins/ Identi.ca for YOURLS]==
 Share YOURLS links via identi.ca
 
-===[http://code.google.com/p/yourls/issues/detail?id=331#c23 YOURLS IDN]http://yourls.googlecode.com/files/ozh.png===
+==[http://code.google.com/p/yourls/issues/detail?id=331#c23 YOURLS IDN]http://yourls.googlecode.com/files/ozh.png==
 Plugin to add IDN support to YOURLS.
 
-===[https://github.com/GautamGupta/YOURLS-Import-Export YOURLS Import Export]===
+==[https://github.com/GautamGupta/YOURLS-Import-Export YOURLS Import Export]==
 A plugin to import and export YOURLS URL
 
-     ====_J_ `__________`====
+=_<font color="#aaa">J:</font>_=
 
-     ====_K_ `__________`====
+=_<font color="#aaa">K:</font>_=
 
-     ====_L_ `__________`====
+=_<font color="#aaa">L:</font>_=
 
-     ====_M_ `__________`====
+=_<font color="#aaa">M:</font>_=
 
-===[http://code.google.com/p/yourls/wiki/PluginMassRemoveLink Mass Remove Link]http://yourls.googlecode.com/files/ozh.png===
+==[http://code.google.com/p/yourls/wiki/PluginMassRemoveLink Mass Remove Link]http://yourls.googlecode.com/files/ozh.png==
 Remove several links at once. Select by date, date range, IP or URL matching.
 
-===[http://www.matbra.com/en/code/multi-user-yourls-plugin/ Multi User]===
+==[http://www.matbra.com/en/code/multi-user-yourls-plugin/ Multi User]==
 Add support for multiple users
 
-     ====_N_ `__________`====
+=_<font color="#aaa">N:</font>_=
 
-     ====_O_ `__________`====
+=_<font color="#aaa">O:</font>_=
 
-     ====_P_ `__________`====
+=_<font color="#aaa">P:</font>_=
 
-===[http://code.google.com/p/yourls/issues/detail?id=661 Piwik Stats]===
+==[http://code.google.com/p/yourls/issues/detail?id=661 Piwik Stats]==
 Integrate statistics with Piwik
 
-===[https://github.com/interfasys/piwik-yourls Piwik-YOURLS]===
+==[https://github.com/interfasys/piwik-yourls Piwik-YOURLS]==
 Piwik and a few other features
 
-===[https://github.com/miconda/yourls/tree/master/plugins/popular-clicks Popular Clicks]===
+==[https://github.com/miconda/yourls/tree/master/plugins/popular-clicks Popular Clicks]==
 Display the top of the most clicked links during past days
 
-===[http://laaatech.com/yourls-plugin-popular-links Popular Links]===
+==[http://laaatech.com/yourls-plugin-popular-links Popular Links]==
 Adds an admin page that displays your shortener's most popular links
 
-===[http://code.google.com/p/yourls/wiki/PluginPreviewURL Preview URL]http://yourls.googlecode.com/files/ozh.png===
+==[http://code.google.com/p/yourls/wiki/PluginPreviewURL Preview URL]http://yourls.googlecode.com/files/ozh.png==
 Add the character '~' to a short URL to display a preview screen before redirection
 
-===[http://code.google.com/p/yourls/wiki/PluginPublicPrefixNShorten Public "Prefix n' Shorten"]http://yourls.googlecode.com/files/ozh.png===
+==[http://code.google.com/p/yourls/wiki/PluginPublicPrefixNShorten Public "Prefix n' Shorten"]http://yourls.googlecode.com/files/ozh.png==
 Redirect `http://sho.rt/http://someurl.com/` to a public interface instead of the admin area
 
-===[https://github.com/ubicoo/yourls-pseudonymize YOURLS Pseudonymize]===
+==[https://github.com/ubicoo/yourls-pseudonymize YOURLS Pseudonymize]==
 This plugin "pseudonymizes" the IP addresses so that it is in line with the German privacy laws (the last 2 segments/bytes of a visitor's IP address are removed)
 
-     ====_Q_ `__________`====
+=_<font color="#aaa">Q:</font>_=
 
-===[http://code.google.com/p/yourls/wiki/PluginQRCodeShortURL QRCode]http://yourls.googlecode.com/files/ozh.png===
+==[http://code.google.com/p/yourls/wiki/PluginQRCodeShortURL QRCode]http://yourls.googlecode.com/files/ozh.png==
 Add ".qr" to short URLs to display the shorturl's QR code
 
-===[https://github.com/llonchj/yourls_plugins QueryString Forward]===
+==[https://github.com/llonchj/yourls_plugins QueryString Forward]==
 Forward the query string on short link to long URL (eg http://sho.rt/kk?a=1 to http://longurl/somepage/?a=1)
 
 
-     ====_R_ `__________`====
+=_<font color="#aaa">R:</font>_=
 
-===[http://code.google.com/p/yourls/wiki/PluginRandomKeywords Random Keywords]http://yourls.googlecode.com/files/ozh.png===
+==[http://code.google.com/p/yourls/wiki/PluginRandomKeywords Random Keywords]http://yourls.googlecode.com/files/ozh.png==
 Assign random keywords to shorturls, like bitly (ie http://sho.rt/hJudjK)
 
-     ====_S_ `__________`====
+=_<font color="#aaa">S:</font>_=
 
-===[https://github.com/ianbarber/Yourls-Separate-Users YOURLS Separate Users]===
+==[https://github.com/ianbarber/Yourls-Separate-Users YOURLS Separate Users]==
 Adds a username to each created URL, and filters the admin interface.
 
-===[http://www.mattytemple.com/projects/yourls-share-files/ Share Files]===
+==[http://www.mattytemple.com/projects/yourls-share-files/ Share Files]==
 Add a form to upload files and share them using your YOURLS setup.
 
-===[http://code.google.com/p/yourls/wiki/PluginShareTumblr Share With Tumblr]http://yourls.googlecode.com/files/ozh.png===
+==[http://code.google.com/p/yourls/wiki/PluginShareTumblr Share With Tumblr]http://yourls.googlecode.com/files/ozh.png==
 In the Quick Share box, add a one-click share to Tumblr link.
 
-===[https://github.com/ianbarber/Yourls-SimpleDB-Clickqueue YOURLS SimpleDB Clickqueue]===
+==[https://github.com/ianbarber/Yourls-SimpleDB-Clickqueue YOURLS SimpleDB Clickqueue]==
 Queue clicks to Amazon SimpleDB before processing. This allows using a regular MySQL store even in the face of a high frequency of writes, without concern of connection limit overflow. Clicks are inserted later into the database via an import job.
 
-===[http://www.mattytemple.com/2010/12/yourls-plugin-skimlinks/ Skimlinks]===
+==[http://www.mattytemple.com/2010/12/yourls-plugin-skimlinks/ Skimlinks]==
 Push all links through Skimlinks to automatically embed affiliate codes
 
-===[http://technicalnotebook.com/wiki/display/DEV/YourLS+Social+Toolbar YOURLS Social Toolbar]===
+==[http://technicalnotebook.com/wiki/display/DEV/YourLS+Social+Toolbar YOURLS Social Toolbar]==
 A fork of the official sample toolbar plugin, with alternative display for Youtube videos.
 
-===[https://github.com/ggwarpig/Yourls-Swap-Short-Url Swap Short URL]===
+==[https://github.com/ggwarpig/Yourls-Swap-Short-Url Swap Short URL]==
 A plugin to have http://sho.rt/blah while having YOURLS installed in http://sho.rt/yourls/
 
-     ====_T_ `__________`====
+=_<font color="#aaa">T:</font>_=
 
 
-===[http://williamscastillo.com/code/yourls/tuber/ Tuber]===
+==[http://williamscastillo.com/code/yourls/tuber/ Tuber]==
 Show the videos that you bookmark in their own page instead of redirecting to the video page. Works with Youtube, Vimeo, Blip.tv and DailyMotion. 
 
-===[https://github.com/koma5/typer Typer, a yourls prank plugin]===
+==[https://github.com/koma5/typer Typer, a yourls prank plugin]==
 Add an underscore _ to your shortlink and the user will be shown a page where they have to type the shortlink themselves.
 
-     ====_U_ `__________`====
+=_<font color="#aaa">U:</font>_=
 
-     ====_V_ `__________`====
+=_<font color="#aaa">V:</font>_=
 
-===[http://pastie.org/1833229 Virustotal for YOURLS]===
+==[http://pastie.org/1833229 Virustotal for YOURLS]==
 Avoid spam links with Virustotal
 
-     ====_W_ `__________`====
+=_<font color="#aaa">W:</font>_=
 
-     ====_X_ `__________`====
+=_<font color="#aaa">X:</font>_=
 
-     ====_Y_ `__________`====
+=_<font color="#aaa">Y:</font>_=
 
-     ====_Z_ `__________`====
-
-
+=_<font color="#aaa">Z:</font>_=
 
 
 = Get your plugin listed here =
