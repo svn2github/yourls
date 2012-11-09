@@ -76,6 +76,12 @@ Always develop with error reporting on. In YOURLS, this means you should add thi
 define( 'YOURLS_DEBUG', true );
 }}}
 
+= Never hardcode a URL or path =
+
+Users may have their plugins in any directory, not just `/user/plugins`. They may have renamed your plugin directory. They may use `https` instead of `http`.
+
+Don't hardcode any path or URL, there are functions for this, such as `dirname()`, `yourls_plugin_url()` or `yourls_admin_url()`.
+
 
 = More links =
 
