@@ -11,7 +11,7 @@ Core plugins are bundled with YOURLS. They aim to either provide sample code for
 
 = Normal plugins =
 
-These plugins are written (and hopefully maintained) by YOURLS users (a few by Ozh http://yourls.googlecode.com/files/ozh.png) or other YOURLS users.
+These plugins are written (and hopefully maintained) by various YOURLS users (a few by Ozh http://yourls.googlecode.com/files/ozh.png)
 
 Note that being listed here does not guarantee that the plugin is approved, its code is clean, future proof or anything (unless it's been made by Ozh of course ;)
 
@@ -20,6 +20,8 @@ Note that being listed here does not guarantee that the plugin is approved, its 
 ==[http://blog.yourls.org/2011/04/yourls-abuse-anti-spam-plugins/ Abuse Desk for YOURLS]==
 A Google Safe Browsing implementation for YOURLS to avoid spam links
 
+==[https://github.com/YOURLS/API-action API Action]http://yourls.googlecode.com/files/ozh.png==
+Example plugin for YOURLS 1.6+ to show how to implement custom API actions
 
 ==[http://blog.yourls.org/2011/06/yourls-apc-cache-plugin/ YOURLS APC Cache]==
 Add support for APC to reduce MySQL queries
