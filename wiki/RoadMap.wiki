@@ -19,16 +19,16 @@ Check the [http://code.google.com/p/yourls/source/browse/trunk/changelog.txt cha
 There are things that would greatly or nicely improve YOURLS. When is still undecided, but at any time if you feel like working on one of them, please get in touch :)
 
   * A more sophisticated stat Dashboard
-  * Nicer admin interface
+  * Nicer admin interface?
+  * Theme support (Issue 1234)
   * Cleaner HTML, better separation of PHP & HTML/CSS
   * User management (multi user, user roles, no more plain text passwords in config file)
   * Multisite feature (one install to manage several domains)
   * Complete installer & options managed through an admin page (no more config.php editing)
   * Interface localization (Issue 52)
-  * Theme support ?
   * Related: an enqueue/dequeue API for JS & CSS files like in WP
-  * A pseudo cron like in WP -- needs improvement of the HTTP functions to handle timeouts
-  * Archiving hit logs by day/month/year to save DB space (needs cron support I guess)
+  * A pseudo cron like in WP, see Issue 1233
+  * Archiving hit logs by day/month/year to save DB space (needs cron support I guess) (Issue 372)
   * OAuth, possibly in a core plugin. See http://dev.bitly.com/authentication.html
   * Exporter / Importer (from awe.sm, bitly, less, zipsme...)
 
