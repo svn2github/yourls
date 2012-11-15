@@ -62,6 +62,9 @@ Don't count clicks on short URL if user is logged in
 ==[http://blog.yourls.org/2011/04/yourls-abuse-anti-spam-plugins/ Fishtank]==
 Prevent spam links using Fishtank's API
 
+==[https://github.com/YOURLS/force-lowercase Force Lowercase]http://yourls.googlecode.com/files/ozh.png==
+Force lowercase so http://sho.rt/ABC == http://sho.rt/abc
+
 =_<font color="#aaa">G:</font>_=
 
 ==[http://www.techblessings.com/projects/geo-redirect/ Geo Redirect]==
@@ -83,8 +86,8 @@ Add GA tags (utm_source and others) to your shortened links
 ==[http://blog.yourls.org/2011/04/yourls-identi-ca-and-tumblr-plugins/ Identi.ca for YOURLS]==
 Share YOURLS links via identi.ca
 
-==[http://code.google.com/p/yourls/issues/detail?id=331#c23 YOURLS IDN]http://yourls.googlecode.com/files/ozh.png==
-Plugin to add IDN support to YOURLS.
+==[https://github.com/YOURLS/YOURLS-IDN YOURLS IDN]http://yourls.googlecode.com/files/ozh.png==
+Add IDN support to YOURLS
 
 ==[https://github.com/GautamGupta/YOURLS-Import-Export YOURLS Import Export]==
 A plugin to import and export YOURLS URL
