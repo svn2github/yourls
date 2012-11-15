@@ -34,6 +34,9 @@ A simple plugin to blacklist IPs from shortening URLs
 
 =_<font color="#aaa">C:</font>_=
 
+==[https://github.com/YOURLS/cache-stats-pages Cache Stat Pages]http://yourls.googlecode.com/files/ozh.png==
+Serve stat pages (http://sho.rt/blah+) from cache
+
 ==[http://code.google.com/p/yourls-cas-plugin/ CAS Plugin]==
 Enable authentication through a CAS server
 
