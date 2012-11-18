@@ -26,6 +26,9 @@ Example plugin for YOURLS 1.6+ to show how to implement custom API actions
 ==[http://blog.yourls.org/2011/06/yourls-apc-cache-plugin/ YOURLS APC Cache]==
 Add support for APC to reduce MySQL queries
 
+==[https://code.google.com/p/yourls-authmgr-plugin/ Auth Manager]==
+Assign users to roles like "Editor" and "Contributor" to limit the changes they are permitted to make (edit URLs, manage plugins...)
+
 =_<font color="#aaa">B:</font>_=
 
 ==[https://github.com/LudoBoggio/YourlsBlacklistIPs Blacklist IPs]==
