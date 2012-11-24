@@ -23,6 +23,9 @@ A Google Safe Browsing implementation for YOURLS to avoid spam links
 ==[https://github.com/YOURLS/API-action API Action]http://yourls.googlecode.com/files/ozh.png==
 Example plugin for YOURLS 1.6+ to show how to implement custom API actions
 
+==[https://github.com/YOURLS/antispam Antispam]http://yourls.googlecode.com/files/ozh.png==
+Merciless antispam plugin using the 3 major domain blacklists
+
 ==[http://blog.yourls.org/2011/06/yourls-apc-cache-plugin/ YOURLS APC Cache]==
 Add support for APC to reduce MySQL queries
 
