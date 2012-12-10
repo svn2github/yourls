@@ -23,7 +23,7 @@ There are things that would greatly or nicely improve YOURLS. When is still unde
   * Nicer admin interface?
   * Theme support (Issue 1234)
   * Cleaner HTML, better separation of PHP & HTML/CSS
-  * User management (multi user, user roles, no more plain text passwords in config file)
+  * User management (multi user, user roles, no more plain text passwords in config file), see Issue 1255
   * Multisite feature (one install to manage several domains)
   * Complete installer with no more config.php editing (Issue 1254)
   * Interface localization (Issue 52)
