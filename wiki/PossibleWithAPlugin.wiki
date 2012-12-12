@@ -11,6 +11,10 @@ One of the primary goal of YOURLS is to achieve balance between features and eff
 
 So, yes, feature requests are often closed with `WontFix`.
 
+= Don't modify core files =
+
+That's idiotic and will get you in trouble. DontHackCore. Make plugins instead.
+
 = There a plugin API for this =
 
 Most of the time, feature that are requested won't be implemented into core, but are easily implementable with a plugin. That's the whole point of the plugin API that has been introduced in YOURLS.
