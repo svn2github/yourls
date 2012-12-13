@@ -76,9 +76,6 @@ Force lowercase so http://sho.rt/ABC == http://sho.rt/abc
 
 =_<font color="#aaa">G:</font>_=
 
-==[http://www.techblessings.com/projects/geo-redirect/ Geo Redirect]==
-Redirect users to different URLs depending on their country
-
 ==[http://octo.it/yourls-gitweb/ YOURLS Gitweb]==
 Automatically redirect to a Gitweb installation, if the provided keyword identifies a Git object
 
