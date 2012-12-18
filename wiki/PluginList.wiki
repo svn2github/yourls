@@ -147,6 +147,9 @@ Add ".qr" to short URLs to display the shorturl's QR code
 ==[http://techlister.com/plugins-2/qrcode-plugin-for-yourls/354/ QRCode]==
 Creates and displays QR Codes within YOURLS
 
+==[http://aiaraldea.github.com/qr-google-charts/ QR Google Charts]==
+Another QR Code plugin, using Google Charts API
+
 ==[https://github.com/llonchj/yourls_plugins QueryString Forward]==
 Forward the query string on short link to long URL (eg http://sho.rt/kk?a=1 to http://longurl/somepage/?a=1)
 
