@@ -34,8 +34,12 @@ Assign users to roles like "Editor" and "Contributor" to limit the changes they 
 
 =_<font color="#aaa">B:</font>_=
 
+==[https://github.com/apelly/YourlsBlacklistDomains Blacklist Domains]==
+A simple plugin to blacklist domains from shortening URLs
+
 ==[https://github.com/LudoBoggio/YourlsBlacklistIPs Blacklist IPs]==
 A simple plugin to blacklist IPs from shortening URLs
+
 
 
 =_<font color="#aaa">C:</font>_=
