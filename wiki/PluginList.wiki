@@ -84,7 +84,7 @@ Force lowercase so http://sho.rt/ABC == http://sho.rt/abc
 Automatically redirect to a Gitweb installation, if the provided keyword identifies a Git object
 
 ==[http://www.matbra.com/en/code/google-analytics-yourls-plugin/ Google Analytics YOURLS Plugin]==
-Add support for Google Analytics
+Add your Google Analytics tags to admin and stat pages
 
 ==[http://www.seodenver.com/add-google-analytics-link-tagging-yourls/ Google Analytics Link Tagging]==
 Add GA tags (utm_source and others) to your shortened links
