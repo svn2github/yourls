@@ -18,10 +18,10 @@ Note that being listed here does not guarantee that the plugin is approved, its 
 =_<font color="#aaa">A:</font>_=
 
 ==[http://blog.yourls.org/2011/04/yourls-abuse-anti-spam-plugins/ Abuse Desk for YOURLS]==
-Allows same YOURLS instance to work with server alias hostnames (eg both http://sho.rt/ and http://mycompany.com)
+A Google Safe Browsing implementation for YOURLS to avoid spam links
 
 ==[http://code.google.com/p/yourls-allow-aliases/ Allow Aliases]==
-A Google Safe Browsing implementation for YOURLS to avoid spam links
+Allows same YOURLS instance to work with server alias hostnames (eg both http://sho.rt/ and http://mycompany.com)
 
 ==[https://github.com/YOURLS/API-action API Action]http://yourls.googlecode.com/files/ozh.png==
 Example plugin for YOURLS 1.6+ to show how to implement custom API actions
