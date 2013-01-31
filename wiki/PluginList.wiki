@@ -18,6 +18,9 @@ Note that being listed here does not guarantee that the plugin is approved, its 
 =_<font color="#aaa">A:</font>_=
 
 ==[http://blog.yourls.org/2011/04/yourls-abuse-anti-spam-plugins/ Abuse Desk for YOURLS]==
+Allows same YOURLS instance to work with server alias hostnames (eg both http://sho.rt/ and http://mycompany.com)
+
+==[http://code.google.com/p/yourls-allow-aliases/ Allow Aliases]==
 A Google Safe Browsing implementation for YOURLS to avoid spam links
 
 ==[https://github.com/YOURLS/API-action API Action]http://yourls.googlecode.com/files/ozh.png==
@@ -49,6 +52,9 @@ Serve stat pages (http://sho.rt/blah+) from cache
 
 ==[http://code.google.com/p/yourls-cas-plugin/ CAS Plugin]==
 Enable authentication through a CAS server
+
+==[http://code.google.com/p/yourls-check-url/ Check URL]==
+Check if a long URL is reachable before creating a short URL
 
 ==[https://bitbucket.org/laceous/yourls-concurrency-fix API Concurrency Fix]==
 A plugin to resolve concurrency issues with the API as described in Issue 765.
