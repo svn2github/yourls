@@ -53,6 +53,9 @@ Serve stat pages (http://sho.rt/blah+) from cache
 ==[http://code.google.com/p/yourls-cas-plugin/ CAS Plugin]==
 Enable authentication through a CAS server
 
+==[http://code.google.com/p/yourls-change-error-messages/ Change Error Messages]==
+Changes the error message when a keyword or URL already exists and displays the long URL.
+
 ==[http://code.google.com/p/yourls-check-url/ Check URL]==
 Check if a long URL is reachable before creating a short URL
 
