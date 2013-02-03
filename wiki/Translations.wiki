@@ -1,0 +1,15 @@
+#summary YOURLS in your language
+
+Placeholder. More to come.
+
+= Install YOURLS in your language =
+
+Bleh.
+
+= Get your code ready for translation =
+
+Also bleh.
+
+= Available languages =
+
+More bleh.
