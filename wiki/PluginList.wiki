@@ -59,6 +59,9 @@ Changes the error message when a keyword or URL already exists and displays the 
 ==[http://code.google.com/p/yourls-check-url/ Check URL]==
 Check if a long URL is reachable before creating a short URL
 
+==[https://github.com/Diftraku/yourls_cloudflare Cloudflare]==
+Fixes the incoming IPs when using YOURLS on a CloudFlare-activated domain
+
 ==[https://bitbucket.org/laceous/yourls-concurrency-fix API Concurrency Fix]==
 A plugin to resolve concurrency issues with the API as described in Issue 765.
 
@@ -99,6 +102,9 @@ Add your Google Analytics tags to admin and stat pages
 Add GA tags (utm_source and others) to your shortened links
 
 =_<font color="#aaa">H:</font>_=
+
+==[http://code.google.com/p/yourls-http-proxy/ http-proxy]==
+Get remote content using an HTTP proxy, for instance when YOURLS is running behind a firewall (e.g. corporate intranet) 
 
 =_<font color="#aaa">I:</font>_=
 
