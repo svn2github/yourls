@@ -70,6 +70,8 @@ A plugin to conditionally enable the toolbar: http://sho.rt/blah for normal redi
 
 =_<font color="#aaa">D:</font>_=
 
+==[https://github.com/Diftraku/yourls_dnsbl/ DNSBL]==
+Uses various DNSBLs to check the submitter's IP and prevent shortening URLs if any malicious activity has been detected.
 
 ==[http://code.google.com/p/yourls-domainlimit-plugin/ Domain Limit]==
 Limit the domains that users can create shortlinks to
