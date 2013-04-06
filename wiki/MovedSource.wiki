@@ -1,0 +1,7 @@
+#summary source has moved
+
+= This Project has moved =
+
+This project is now hosted on Github and uses Git instead of SVN.
+
+You will find the source code here: https://github.com/YOURLS/YOURLS
