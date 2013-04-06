@@ -1,0 +1,5 @@
+#summary wiki has moved
+
+= This Wiki has moved =
+
+This project is now hosted on Github. You will find the wiki documents here: https://github.com/YOURLS/YOURLS/wiki
