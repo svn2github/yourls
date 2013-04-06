@@ -1,22 +1,7 @@
-#summary Proposed DB schema for YOURLS 1.6
-#labels Phase-Design
+#summary wiki has moved
 
-= DB in YOURLS 1.5 and prior =
+= This Wiki has moved =
 
-Weak, performance and disk space wise, and does not allow to easily add new features. Need to improve.
+This project is now hosted on Github. You will find the wiki documents here: https://github.com/YOURLS/YOURLS/wiki
 
-http://blog.yourls.org/wp-content/uploads/2012/10/yourls-db-15.png
-
-
-= DB in YOURLS 1.6 =
-
-http://blog.yourls.org/wp-content/uploads/2012/10/yourls-db-16.png
-
-*Update:* Columns `*`meta_type will be renamed `*`meta_key. Having key-value pairs sounds better than type-value.
-
-More details on the [http://blog.yourls.org/2012/10/working-on-yourls-1-6-the-next-db-structure/ related blog post]
-
-For the record, earlier reflexions: [http://yourls.googlecode.com/files/yourls-db.jpg version 1] and [http://yourls.googlecode.com/files/yourls-db-v2.jpg version 2]
-
----- 
-http://planetozh.com/images/simplecounter/count.php?this_is_a=.gif
+*Comments here will be ignored*

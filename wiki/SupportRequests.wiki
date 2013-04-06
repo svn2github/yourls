@@ -1,8 +1,7 @@
-#summary Not with Twitter.
-#labels Featured,Phase-Support
+#summary wiki has moved
 
-Twitter is fun but Twitter is *NOT* a convenient way for troubleshooting or support requests. Please [http://code.google.com/p/yourls/issues/list file an issue] instead. And *search* before filing one.
+= This Wiki has moved =
 
-(this page is not monitored. Don't comment here.)
+This project is now hosted on Github. You will find the wiki documents here: https://github.com/YOURLS/YOURLS/wiki
 
-http://planetozh.com/images/simplecounter/count.php?this_is_a=.gif
+*Comments here will be ignored*

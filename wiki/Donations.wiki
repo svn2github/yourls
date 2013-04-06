@@ -1,10 +1,7 @@
-#summary Donations always warm the heart
-#labels Featured
+#summary wiki has moved
 
-Donations definitely warm the heart, there are a nice way to say "thank you" for something that is developed and released for free.
+= This Wiki has moved =
 
-If you want to say "thanks", and any amount of money says "thanks", you can paypal me a beer: http://yourls.org/donate
+This project is now hosted on Github. You will find the wiki documents here: https://github.com/YOURLS/YOURLS/wiki
 
-Thanks a bunch to those who did and those who will!
-
-http://planetozh.com/images/simplecounter/count.php?this_is_a=.gif
+*Comments here will be ignored*

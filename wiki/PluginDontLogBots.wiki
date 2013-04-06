@@ -1,75 +1,7 @@
-#summary Plugin: Ignore bots hits in your stats
-#labels Plugin
+#summary wiki has moved
 
-Plugin for YOURLS 1.5.1+: Ignore bot hits in your stats (both click count as seen in the main admin page and in detailed stats)
+= This Wiki has moved =
 
-= Install =
+This project is now hosted on Github. You will find the wiki documents here: https://github.com/YOURLS/YOURLS/wiki
 
-  * In `/user/plugins`, create a new folder named `dont-log-bots`
-  * In this new directory, create a blank file named `plugin.php`
-  * In this new file, cut and paste the following code
-  * Go to the Plugins administration page and activate the plugin
-
-= Code =
-
-{{{
-<?php
-/*
-Plugin Name: Don't Log Bots
-Plugin URI: http://yourls.org/
-Description: OMG
-Version: 1.0
-Author: Ozh
-Author URI: http://ozh.org/
-*/
-
-// Check current user-agent against a list of bots, return boolean
-function ozh_dlb_is_bot() {
-	// Get current User-Agent
-	$current = strtolower( $_SERVER['HTTP_USER_AGENT'] );
-	
-	// Array of known bot lowercase strings
-	// Example: 'googlebot' will match 'Googlebot/2.1 (+http://www.googlebot.com/bot.html)'
-	$bots = array(
-		// general web bots
-		'googlebot', 'yahoo! slurp',
-		'dotbot', 'yeti', 'http://help.naver.com/robots/', 'scoutjet', 
-		'http://yandex.com/bots', 'linkedinbot', 'mj12bot', 'http://www.80legs.com/spider.html',
-		'exabot', 'msnbot', 'yacybot', 'www.oneriot.com', 'http://flipboard.com/', 
-		'baiduspider', 'mxbot', 'bingbot',
-		
-		// twitter specific bots
-		'http://thinglabs.com', 'js-kit url resolver', 'twitterbot', 'njuicebot', 'postrank.com',
-		'tweetmemebot', 'longurl api', 'paperlibot', 'http://postpo.st/crawlers',
-	);
-	
-	// Check if the current UA string contains a know bot string
-	$is_bot = ( str_replace( $bots, '', $current ) != $current );
-	
-	return $is_bot;
-}
-
-// Hook stuff in
-yourls_add_filter( 'shunt_update_clicks', 'ozh_dlb_skip_if_bot' );
-yourls_add_filter( 'shunt_log_redirect', 'ozh_dlb_skip_if_bot' );
-
-// Skip if it's a bot
-function ozh_dlb_skip_if_bot() {
-	return ozh_dlb_is_bot();
-	// if anything but false is returned, functions using the two shunt_* filters will be short-circuited
-}
-}}}
-
-= More =
-
-Users of YOURLS *1.5* need to update using the SVN snapshot until there is an official 1.5.1 build.
-
-The list of bot user agent strings has been compiled from one of my own YOURLS setup: user-agents *looking like* bots with more than 100 hits. There is no reliable way to determine if a client is a bot or not.
-
-To check user agents on your own setup, you can try this query:
-
-{{{
-SELECT DISTINCT `user_agent` as ua, COUNT(*) as c FROM `yourls_log` GROUP BY ua ORDER BY c DESC
-}}}
-
-http://planetozh.com/images/simplecounter/count.php?this_is_a=.gif
+*Comments here will be ignored*

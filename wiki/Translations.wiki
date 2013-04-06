@@ -1,15 +1,7 @@
-#summary YOURLS in your language
+#summary wiki has moved
 
-Placeholder. More to come.
+= This Wiki has moved =
 
-= Install YOURLS in your language =
+This project is now hosted on Github. You will find the wiki documents here: https://github.com/YOURLS/YOURLS/wiki
 
-Bleh.
-
-= Get your code ready for translation =
-
-Also bleh.
-
-= Available languages =
-
-More bleh.
+*Comments here will be ignored*
