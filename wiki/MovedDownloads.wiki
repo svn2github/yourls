@@ -1,0 +1,5 @@
+#summary downloads has moved
+
+= The download list has moved =
+
+This project is now hosted on Github. You will find YOURLS releases here: https://github.com/YOURLS/YOURLS/tags
