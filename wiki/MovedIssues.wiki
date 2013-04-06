@@ -1,0 +1,5 @@
+#summary issues has moved
+
+= This Issue tracker has moved =
+
+This project is now hosted on Github. You will find the issue tracker here: https://github.com/YOURLS/YOURLS/issues
